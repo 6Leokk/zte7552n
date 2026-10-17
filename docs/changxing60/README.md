@@ -177,6 +177,6 @@ the same tree (symbol CRCs change)"——**符号 CRC 约束使 Android 出厂 .
 > initramfs-OpenWrt 轻路子 / 全量安装 / 自编内核容器 / mainline 7.2 等分支的可行性、
 > 未知数与风险,以及"开机选系统"目标的推荐渐进。本节交代"为何曾放弃",feasibility 交代"若回来走哪条"。
 
-1. `changxing60-linux` 子仓库当前在 `mainline-6.18` 分支(现行试验线),已落后 `origin/main` 若干 commits,先 rebase 到新 main。
+1. `changxing60-linux` 子仓库自成主线 **`mainline-5.4`**(2026-10-18 由 `mainline-6.18` 改名,名字跟随生产内核线;6.18 试验在仓内 `mainline-7552n/` 目录),**不再 rebase 上游 `main`**——发布走仓内 `tools/publish-github.sh`(脱敏克隆)。
 2. 重读本节「网络优势误判纠正」,**别再以"5.4 网络更稳"为默认前提**——先实测 WiFi 负载再说。
 3. 充电(sqc / upm6910h)、显示(Phase-D)曾是 7552N 特有未解项,需单独验证;现行 5.4 已落地 bq2560x charge-fix 与 sprd-drm 内屏(见 `power.md` / `screen-plan.md`)。
