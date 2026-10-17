@@ -95,7 +95,7 @@ connecting it to anything.
 
 ## References
 
-* [**dikeckaan/mu300-linux**](https://github.com/dikeckaan/mu300-linux) — the
+* [**mu300-linux**](https://github.com/dikeckaan/mu300-linux) — the
   F50/MU300 port this project started from as a **reference**; part of its commit
   history rides in the port repo's base, all changxing60 work is authored here.
 * The **e5 / UMS9621** port projects — sister-device reference for modem
