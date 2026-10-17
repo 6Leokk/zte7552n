@@ -93,10 +93,11 @@ connecting it to anything.
 * Call audio is suspended pending vendor DSP answers — see
   `docs/changxing60/telephony.md` §10 for exactly what was ruled out and why.
 
-## Acknowledgements
+## References
 
 * [**dikeckaan/mu300-linux**](https://github.com/dikeckaan/mu300-linux) — the
-  direct upstream of the port repo; this project's history starts from it.
+  F50/MU300 port this project started from as a **reference**; part of its commit
+  history rides in the port repo's base, all changxing60 work is authored here.
 * The **e5 / UMS9621** port projects — sister-device reference for modem
   handling, CP recovery and repo layout (`docs/changxing60/e5-linux.md` is a
   line-by-line comparison, including where the two projects are wrong in
