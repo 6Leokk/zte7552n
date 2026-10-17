@@ -1,0 +1,54 @@
+Warning: Permanently added '192.168.77.1' (ED25519) to the list of known hosts.
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+dummy0           DOWN           
+ifb0             DOWN           
+ifb1             DOWN           
+tunl0@NONE       DOWN           
+gre0@NONE        DOWN           
+gretap0@NONE     DOWN           
+erspan0@NONE     DOWN           
+ip_vti0@NONE     DOWN           
+ip6_vti0@NONE    DOWN           
+sit0@NONE        DOWN           
+ip6tnl0@NONE     DOWN           
+ip6gre0@NONE     DOWN           
+sipa_dummy0      UNKNOWN        fe80::a09f:b2ff:fe96:e7c7/64 
+sipa_eth0        UP             10.67.131.73/8 2409:8948:3c1:7c1:4012:e7ff:fe09:801f/64 fe80::4012:e7ff:fe09:801f/64 
+sipa_eth1        DOWN           
+sipa_eth2        DOWN           
+sipa_eth3        DOWN           
+sipa_eth4        DOWN           
+sipa_eth5        DOWN           
+sipa_eth6        DOWN           
+sipa_eth7        DOWN           
+sipa_eth8        DOWN           
+sipa_eth9        DOWN           
+sipa_eth10       DOWN           
+sipa_eth11       DOWN           
+sipa_eth12       DOWN           
+sipa_eth13       DOWN           
+sipa_eth14       DOWN           
+sipa_eth15       DOWN           
+sipa_usb0        DOWN           
+usb0             UP             
+br-lan           UP             192.168.77.1/24 fd96:b832:c98b::1/60 fe80::50:ff:fe00:7701/64 
+br-wifi          UP             192.168.8.1/24 fd96:b832:c98b:10::1/60 fe80::5e4d:bfff:fe9f:8465/64 
+wlan0            UP             
+utun             UNKNOWN        198.18.0.1/30 fe80::9042:5725:b5cc:c002/64 
+--- routes ---
+default dev sipa_eth0 proto static scope link 
+10.0.0.0/8 dev sipa_eth0 proto kernel scope link src 10.67.131.73 
+192.168.8.0/24 dev br-wifi proto kernel scope link src 192.168.8.1 
+192.168.77.0/24 dev br-lan proto kernel scope link src 192.168.77.1 
+198.18.0.0/30 dev utun proto kernel scope link src 198.18.0.1 
+--- ip6 ---
+2409:8948:3c1:7c1::/64 dev br-wifi metric 128 pref medium
+fd96:b832:c98b::/64 dev br-lan proto static metric 1024 pref medium
+fd96:b832:c98b:10::/64 dev br-wifi proto static metric 1024 pref medium
+unreachable fd96:b832:c98b::/48 dev lo proto static metric 2147483647 pref medium
+fe80::/64 dev sipa_dummy0 proto kernel metric 256 pref medium
+fe80::/64 dev br-lan proto kernel metric 256 pref medium
+fe80::/64 dev br-wifi proto kernel metric 256 pref medium
+fe80::/64 dev sipa_eth0 proto kernel metric 256 pref medium
+fe80::/64 dev utun proto kernel metric 256 pref medium
+default via fe80::1 dev sipa_eth0 proto ra metric 1024 expires 63695sec pref medium

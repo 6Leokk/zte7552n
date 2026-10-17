@@ -1,0 +1,98 @@
+Warning: Permanently added '192.168.77.1' (ED25519) to the list of known hosts.
+-rw-r--r--    1 root     root         95427 Oct 16 16:16 changxing60-voice-audiocpython-313.pyc
+-rwxr-xr-x    1 root     root           835 Oct 16 18:51 /opt/changxing60/bin/android-gpu-run
+-rwxr-xr-x    1 root     root          1043 Oct 16 18:51 /opt/changxing60/bin/android-run
+-rwxr-xr-x    1 root     root          3522 Oct 16 18:51 /opt/changxing60/bin/android-vendor-start
+-rwxr-xr-x    1 1000     1000          1834 Oct 16 09:52 /opt/changxing60/bin/bluetooth-start
+-rwxr-xr-x    1 root     root          7347 Oct 16 09:52 /opt/changxing60/bin/bootdiag
+-rwxr-xr-x    1 root     root          5545 Oct 16 09:52 /opt/changxing60/bin/bootdiag.v3bak
+-rwxr-xr-x    1 1000     1000       1981032 Oct 15 20:21 /opt/changxing60/bin/busybox
+-rwxr-xr-x    1 1000     1000         15746 Oct 16 10:02 /opt/changxing60/bin/changxing60-at
+-rwxr-xr-x    1 1000     1000         21633 Oct 16 09:52 /opt/changxing60/bin/changxing60-atd
+-rwxr-xr-x    1 root     root          6310 Oct 16 13:02 /opt/changxing60/bin/changxing60-audio-load
+-rwxr-xr-x    1 root     root        582040 Oct 16 16:17 /opt/changxing60/bin/changxing60-bt-init
+-rwxr-xr-x    1 1000     1000          3875 Oct 16 09:52 /opt/changxing60/bin/changxing60-cmt-spool
+-rwxr-xr-x    1 root     root          4992 Oct 16 18:51 /opt/changxing60/bin/changxing60-cp-reset
+-rwxr-xr-x    1 1000     1000          4992 Oct 16 09:52 /opt/changxing60/bin/changxing60-cp-reset.sh
+-rwxr-xr-x    1 1000     1000          6594 Oct 16 09:52 /opt/changxing60/bin/changxing60-diag.sh
+-rwxr-xr-x    1 root     root        594336 Oct 16 18:51 /opt/changxing60/bin/changxing60-modemd
+-rwxr-xr-x    1 root     root         37010 Oct 16 12:46 /opt/changxing60/bin/changxing60-net-status
+-rwxr-xr-x    1 1000     1000          2040 Oct 16 09:52 /opt/changxing60/bin/changxing60-next-boot
+-rwxr-xr-x    1 1000     1000          1651 Oct 16 09:52 /opt/changxing60/bin/changxing60-os
+-rwxr-xr-x    1 1000     1000         48016 Oct 16 12:30 /opt/changxing60/bin/changxing60-sms
+-rwxr-xr-x    1 1000     1000         35658 Oct 16 09:52 /opt/changxing60/bin/changxing60-sms-forward
+-rwxr-xr-x    1 1000     1000          6257 Oct 16 09:52 /opt/changxing60/bin/changxing60-sms-job
+-rwxr-xr-x    1 1000     1000          9594 Oct 16 09:52 /opt/changxing60/bin/changxing60-smsd
+-rwxr-xr-x    1 root     root          7796 Oct 16 18:51 /opt/changxing60/bin/changxing60-usb-mode
+-rwxr-xr-x    1 root     root          7290 Oct 16 15:44 /opt/changxing60/bin/changxing60-vbc-dump
+-rwxr-xr-x    1 root     root          8128 Oct 16 15:44 /opt/changxing60/bin/changxing60-vbc-load
+-rwxr-xr-x    1 root     root         11539 Oct 16 12:47 /opt/changxing60/bin/changxing60-voice
+-rwxr-xr-x    1 root     root         72871 Oct 16 16:17 /opt/changxing60/bin/changxing60-voice-audio
+-rwxr-xr-x    1 root     root          6506 Oct 16 12:47 /opt/changxing60/bin/changxing60-voice-job
+-rwxr-xr-x    1 root     root         12844 Oct 16 12:47 /opt/changxing60/bin/changxing60-voiced
+-rwxr-xr-x    1 1000     1000          2268 Oct 16 09:52 /opt/changxing60/bin/changxing60-wan-keepalive.sh
+-rwxr-xr-x    1 root     root          2334 Oct 16 18:51 /opt/changxing60/bin/changxing60-wedge-watch
+-rwxr-xr-x    1 1000     1000          2334 Oct 16 09:52 /opt/changxing60/bin/changxing60-wedge-watch.sh
+-rwxr-xr-x    1 1000     1000          7698 Oct 16 09:52 /opt/changxing60/bin/charge-fix
+-rwxr-xr-x    1 1000     1000          2329 Oct 16 09:52 /opt/changxing60/bin/display-modules
+-rwxr-xr-x    1 1000     1000          1736 Oct 16 09:52 /opt/changxing60/bin/early-recorder
+-rwxr-xr-x    1 root     root          2109 Oct 16 18:51 /opt/changxing60/bin/extra-modules
+-rwxr-xr-x    1 1000     1000          4295 Oct 16 09:52 /opt/changxing60/bin/hotspot-start
+-rwxr-xr-x    1 1000     1000            54 Sep 17 19:38 /opt/changxing60/bin/hotspot-stop
+-rwxr-xr-x    1 1000     1000           706 Oct 16 09:52 /opt/changxing60/bin/hotspot-verify
+-rwxr-xr-x    1 root     root          5809 Oct 16 09:52 /opt/changxing60/bin/hotspot-watch
+-rwxr-xr-x    1 1000     1000           909 Oct 16 09:52 /opt/changxing60/bin/lan-start
+-rwxr-xr-x    1 1000     1000        608888 Oct 15 20:21 /opt/changxing60/bin/logdw
+-rwxr-xr-x    1 root     root         32598 Oct 16 11:40 /opt/changxing60/bin/mobile-data
+-rwxr-xr-x    1 1000     1000          3024 Oct 15 20:21 /opt/changxing60/bin/modem-ioctl
+-rwxr-xr-x    1 1000     1000          8071 Oct 16 10:02 /opt/changxing60/bin/ndp-learn
+-rwxr-xr-x    1 1000     1000          4564 Oct 16 09:52 /opt/changxing60/bin/net-down-test.sh
+-rwxr-xr-x    1 1000     1000          1671 Oct 15 20:21 /opt/changxing60/bin/net-scope-test.sh
+-rwxr-xr-x    1 1000     1000          8913 Oct 16 09:52 /opt/changxing60/bin/net-split
+-rwxr-xr-x    1 1000     1000          7080 Oct 16 09:52 /opt/changxing60/bin/net-v6-client-test.sh
+-rwxr-xr-x    1 1000     1000          2021 Oct 16 09:52 /opt/changxing60/bin/openwrt-wifi-config
+-rwxr-xr-x    1 root     root          4584 Oct 16 18:51 /opt/changxing60/bin/power-policy
+-rwxr-xr-x    1 1000     1000          2217 Oct 16 09:52 /opt/changxing60/bin/quiet-console
+-rwxr-xr-x    1 1000     1000           866 Oct 12 19:39 /opt/changxing60/bin/regdb-load
+-rwxr-xr-x    1 1000     1000           479 Sep 17 19:38 /opt/changxing60/bin/rootfs-fixups
+-rwxr-xr-x    1 1000     1000         16502 Oct 16 12:30 /opt/changxing60/bin/sms
+-rwxr-xr-x    1 1000     1000          1912 Oct 16 09:52 /opt/changxing60/bin/thermal-guard
+-rwxr-xr-x    1 root     root          3289 Oct 16 09:52 /opt/changxing60/bin/touch-ctl
+-rwxr-xr-x    1 1000     1000         56421 Sep 18 01:54 /opt/changxing60/bin/ueventd-perms.sh
+-rwxr-xr-x    1 root     root          9444 Oct 16 09:52 /opt/changxing60/bin/vendor-modules
+-rwxr-xr-x    1 root     root          6708 Oct 16 09:52 /opt/changxing60/bin/vendor-modules.v3bak
+-rw-r--r--    1 root     root          6393 Oct 16 12:47 /opt/changxing60/bin/voice.sh
+-rwxr-xr-x    1 1000     1000          1327 Oct 16 09:52 /opt/changxing60/bin/wifi-fix
+-rwxr-xr-x    1 1000     1000          1867 Oct 16 09:52 /opt/changxing60/bin/wifi-mac
+-rwxr-xr-x    1 1000     1000          1345 Oct 16 09:52 /opt/changxing60/bin/wifi-start
+-rwxr-xr-x    1 1000     1000          1027 Oct 12 19:34 /opt/changxing60/bin/wifi-start.orig-20261012
+-rwxr-xr-x    1 1000     1000           827 Oct 12 20:06 /opt/changxing60/bin/zram-start
+-rwxr-xr-x    1 1000     1000           548 Oct 13 04:29 /usr/bin/changxing60-apsample
+-rwxr-xr-x    1 root     root        623624 Oct 16 18:51 /usr/bin/changxing60-screen
+-rwxr-xr-x    1 1000     1000           956 Oct 13 04:14 /usr/bin/changxing60-wlanwatch
+-rwxr-xr-x    1 root     root        508304 Oct 16 18:51 /usr/bin/keyinject
+-rwxr-xr-x    1 1000     1000        573840 Oct 13 06:53 /usr/bin/wifimac
+-rwxr-xr-x    1 root     root          3836 Oct 16 18:51 /etc/init.d/changxing60-at
+-rwxr-xr-x    1 root     root          2953 Oct 16 18:51 /etc/init.d/changxing60-audio
+-rwxr-xr-x    1 root     root          2438 Oct 16 18:51 /etc/init.d/changxing60-bootpaths
+-rwxr-xr-x    1 root     root          4902 Oct 16 18:51 /etc/init.d/changxing60-hw
+-rwxr-xr-x    1 root     root          2099 Oct 16 18:51 /etc/init.d/changxing60-modemd
+-rwxr-xr-x    1 root     root          1794 Oct 16 18:51 /etc/init.d/changxing60-ndp
+-rwxr-xr-x    1 root     root          4286 Oct 16 18:51 /etc/init.d/changxing60-post
+-rwxr-xr-x    1 root     root           727 Oct 16 18:51 /etc/init.d/changxing60-power
+-rwxr-xr-x    1 root     root          1677 Oct 16 18:51 /etc/init.d/changxing60-screen
+-rwxr-xr-x    1 root     root          1272 Oct 16 18:51 /etc/init.d/changxing60-smsd
+-rwxr-xr-x    1 root     root           926 Oct 16 18:51 /etc/init.d/changxing60-vendor
+-rwxr-xr-x    1 root     root          1343 Oct 16 18:51 /etc/init.d/changxing60-voiced
+lrwxrwxrwx    1 root     root            31 Oct 16 18:51 /etc/rc.d/S00changxing60-bootpaths -> ../init.d/changxing60-bootpaths
+lrwxrwxrwx    1 root     root            28 Oct 16 18:51 /etc/rc.d/S11changxing60-vendor -> ../init.d/changxing60-vendor
+lrwxrwxrwx    1 root     root            24 Oct 16 18:51 /etc/rc.d/S12changxing60-hw -> ../init.d/changxing60-hw
+lrwxrwxrwx    1 root     root            28 Oct 16 18:51 /etc/rc.d/S12changxing60-modemd -> ../init.d/changxing60-modemd
+lrwxrwxrwx    1 root     root            24 Oct 16 18:51 /etc/rc.d/S19changxing60-at -> ../init.d/changxing60-at
+lrwxrwxrwx    1 root     root            27 Oct 16 18:51 /etc/rc.d/S20changxing60-audio -> ../init.d/changxing60-audio
+lrwxrwxrwx    1 root     root            28 Oct 16 18:51 /etc/rc.d/S21changxing60-voiced -> ../init.d/changxing60-voiced
+lrwxrwxrwx    1 root     root            28 Oct 16 18:51 /etc/rc.d/S95changxing60-screen -> ../init.d/changxing60-screen
+lrwxrwxrwx    1 root     root            26 Oct 16 18:51 /etc/rc.d/S95changxing60-smsd -> ../init.d/changxing60-smsd
+lrwxrwxrwx    1 root     root            27 Oct 16 18:51 /etc/rc.d/S96changxing60-power -> ../init.d/changxing60-power
+lrwxrwxrwx    1 root     root            25 Oct 16 18:51 /etc/rc.d/S99changxing60-ndp -> ../init.d/changxing60-ndp
+lrwxrwxrwx    1 root     root            26 Oct 16 18:51 /etc/rc.d/S99changxing60-post -> ../init.d/changxing60-post

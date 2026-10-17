@@ -1,0 +1,28 @@
+Warning: Permanently added '192.168.77.1' (ED25519) to the list of known hosts.
+--- pstore ---
+-r--r--r--    1 root     root         32756 Oct 16 18:31 console-ramoops-0
+-r--r--r--    1 root     root         54585 Oct 16 18:28 dmesg-ramoops-0
+-r--r--r--    1 root     root         10804 Oct 16 18:31 pmsg-ramoops-0
+--- ubus objects (ours) ---
+changxing60fwd
+changxing60net
+changxing60sms
+changxing60usb
+changxing60voice
+--- selfheal (tail 20) ---
+2026-10-16 04:40:45 +0300 uptime=1493 mobile-data: device smoke test: the durable note writes before any reboot
+2026-10-16 04:40:45 +0300 uptime=1493 mobile-data: device smoke test: second line, to exercise the tail/mv trim
+2026-10-16 08:06:49 +0300 uptime=12246 mobile-data: call unusable for 326s, repairs not helping: restarting the CP
+2026-10-16 08:06:49 +0300 uptime=12246 mobile-data: cp-reset: stop rc=0 run_state 1->0 out=[modem-ioctl: stop (modem_run(0, restrict)) ... rc=0]
+2026-10-16 08:06:52 +0300 uptime=12249 mobile-data: cp-reset: start rc=0 run_state 0->1 out=[modem-ioctl: start (modem_run(1, restrict)) ... rc=0]
+2026-10-16 08:08:22 +0300 uptime=12339 mobile-data: cp-reset: the call did not return within 90s
+2026-10-16 08:08:27 +0300 uptime=12345 mobile-data: call unusable for 326s, repairs not helping and no answer to AT (at_state=1, cp_restart_spent=1): rebooting
+2026-10-16 13:56:39 +0300 uptime=3074 mobile-data: call unusable for 314s, repairs not helping: restarting the CP
+2026-10-16 13:56:39 +0300 uptime=3074 mobile-data: cp-reset: stop rc=0 run_state 1->0 out=[modem-ioctl: stop (modem_run(0, restrict)) ... rc=0]
+2026-10-16 13:56:42 +0300 uptime=3077 mobile-data: cp-reset: start rc=0 run_state 0->1 out=[modem-ioctl: start (modem_run(1, restrict)) ... rc=0]
+2026-10-16 13:58:12 +0300 uptime=3167 mobile-data: cp-reset: the call did not return within 90s
+2026-10-16 13:58:37 +0300 uptime=3192 mobile-data: call unusable for 314s, repairs not helping and no answer to AT (at_state=1, cp_restart_spent=1): rebooting
+--- audio-load tail ---
+2026-10-16 18:31:49 loaded: sprd_audcp_dvfs
+2026-10-16 18:31:49 loaded: snd-soc-sprd-vbc-fe
+2026-10-16 18:31:49 complete: 27 modules loaded

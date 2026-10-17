@@ -1,0 +1,93 @@
+CHANGXING60-LINUX: stage=init-start pid=1
+CHANGXING60-LINUX: stage=devfs-ready
+CHANGXING60-LINUX: stage=usb-dummyphy-ok wait=0s
+CHANGXING60-LINUX: stage=modules-done loaded=94 failed=0
+CHANGXING60-LINUX: stage=modules-done-block loop0,loop1,loop10,loop11,loop12,loop13,loop14,loop15,loop2,loop3,loop4,loop5,loop6,loop7,loop8,loop9,pmem0,ram0,ram1,ram10,ram11,ram12,ram13,ram14,ram15,ram2,ram3,ram4,ram5,ram6,ram7,ram8,ram9,sda,sda1,sda10,sda11,sda12,sda13,sda14,sda15,sda16,sda17,sda18,sda19,sda2,sda20,sda21,sda22,sda23,sda24,sda25,sda26,sda27,sda28,sda29,sda3,sda30,sda31,sda32,sda33,sda34,sda35,sda36,sda37,sda38,sda39,sda4,sda40,sda41,sda42,sda43,sda44,sda45,sda46,sda47,sda48,sda49,sda5,sda50,sda51,sda52,sda53,sda54,sda55,sda56,sda57,sda58,sda59,sda6,sda60,sda61,sda62,sda63,sda64,sda65,sda66,sda67,sda68,sda69,sda7,sda70,sda71,sda72,sda73,sda74,sda75,sda76,sda8,sda9,sdb,sdc,
+CHANGXING60-LINUX: stage=modules-done-deferred 
+CHANGXING60-LINUX: stage=modules-done-pdrv dwc3-of-simple,dwc3-sprd,dwc3-unisoc,musb-sprd,sdhci_sprd_r11,sprd-adi,sprd-bc1p2,sprd-cp_dump,sprd-cpufreq-v2,sprd-debugstat,sprd-dmc,sprd-dummy-phy,sprd-efuse,sprd-eic,sprd-gpio,sprd-hsphy,sprd-i2c,sprd-pamu3,sprd-pinctrl,sprd-pmic-eic,sprd-pmic-glb,sprd-pmic-wdt,sprd-powerdebug,sprd-rtc,sprd-seth,sprd-sipa-sys,sprd-sipc,sprd-sipx,sprd-soc-id,sprd-spipe,sprd-spool,sprd-ssphy,sprd-thermal,sprd-thermal-r5p0,sprd-trusty-core,sprd-trusty-irq,sprd-trusty-log,sprd-trusty-virtio,sprd-wdt-fiq,sprd_hwspinlock,sprd_serial,sprd_time_sync,sprd_trng,ufshcd-sprd,
+CHANGXING60-LINUX: stage=modules-done-bnd 
+CHANGXING60-LINUX: dmesg: [   21.107089]c2 [    T1] CHANGXING60-LINUX: stage=usb-dummyphy-ok wait=0s
+CHANGXING60-LINUX: dmesg: [   23.174086]c1 [ T1236] calling  init_module.cfi_jt+0x0/0x4 [dwc3_sprd] @ 1236
+CHANGXING60-LINUX: dmesg: [   23.224589]c1 [ T1236] dwc3-unisoc 25100000.dwc3: do dwc3 core soft reset!
+CHANGXING60-LINUX: dmesg: [   23.267123]c1 [ T1236] probe of 25100000.dwc3 returned 1 after 91683 usecs
+CHANGXING60-LINUX: dmesg: [   23.267426]c1 [ T1236] dwc3-sprd 25100000.usb3: [dwc3_sprd_usb_notify_init] --
+CHANGXING60-LINUX: dmesg: [   23.274722]c1 [ T1236] dwc3-sprd 25100000.usb3: ext event: id 1, vbus 0, b_susp 0, a_recover 0, a_audio 0
+CHANGXING60-LINUX: dmesg: [   23.284747]c6 [ T1236] dwc3-sprd 25100000.usb3: sprd dwc3 probe finish!
+CHANGXING60-LINUX: dmesg: [   23.285292]c7 [  T557] dwc3-sprd 25100000.usb3: undefined state
+CHANGXING60-LINUX: dmesg: [   23.291330]c6 [ T1236] probe of 25100000.usb3 returned 1 after 116981 usecs
+CHANGXING60-LINUX: dmesg: [   23.297224]c7 [  T557] dwc3-sprd 25100000.usb3: device connection detected from VBUS GPIO.
+CHANGXING60-LINUX: dmesg: [   23.297595]c6 [ T1236] initcall init_module.cfi_jt+0x0/0x4 [dwc3_sprd] returned 0 after 120600 usecs
+CHANGXING60-LINUX: dmesg: [   23.305389]c7 [  T557] sprd-ssphy 25310000.ssphy: sprd_bc1p2_charger_detect:line346: type = 1
+CHANGXING60-LINUX: dmesg: [   23.313885]c7 [  T557] dwc3-sprd 25100000.usb3: charger = 1
+CHANGXING60-LINUX: dmesg: [   23.326750]c7 [  T557] dwc3-sprd 25100000.usb3: charge detect finished with 1
+CHANGXING60-LINUX: dmesg: [   23.333856]c7 [  T557] dwc3-sprd 25100000.usb3: dwc3_sprd_evt_prepare_work enter
+CHANGXING60-LINUX: dmesg: [   23.341205]c7 [  T557] dwc3-sprd 25100000.usb3: ext event: id 1, vbus 1, b_susp 0, a_recover 0, a_audio 0
+CHANGXING60-LINUX: dmesg: [   23.341431]c2 [ T1250] calling  init_module.cfi_jt+0x0/0x4 [musb_sprd] @ 1250
+CHANGXING60-LINUX: dmesg: [   23.350725]c7 [  T557] dwc3-sprd 25100000.usb3: idle state
+CHANGXING60-LINUX: dmesg: [   23.350726]c7 [  T557] dwc3-sprd 25100000.usb3: waiting dwc3 udc start
+CHANGXING60-LINUX: dmesg: [   23.363033]c2 [ T1250] musb-sprd 64a00000.usb: dwc3 probe finish or donnot need loading, musb start probe
+CHANGXING60-LINUX: dmesg: [   23.373102]c7 [ T1250] musb-sprd 64a00000.usb: failed to get pmu regmap!
+CHANGXING60-LINUX: dmesg: [   23.405263]c1 [  T582] dwc3-sprd 25100000.usb3: idle state
+CHANGXING60-LINUX: dmesg: [   23.405418]c7 [ T1250] musb-hdrc musb-hdrc.1.auto: MUSB HDRC host driver
+CHANGXING60-LINUX: dmesg: [   23.410718]c1 [  T582] dwc3-sprd 25100000.usb3: waiting dwc3 udc start
+CHANGXING60-LINUX: dmesg: [   23.417340]c7 [ T1250] musb-hdrc musb-hdrc.1.auto: new USB bus registered, assigned bus number 1
+CHANGXING60-LINUX: dmesg: [   23.417389]c7 [ T1250] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.04
+CHANGXING60-LINUX: dmesg: [   23.441738]c7 [ T1250] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+CHANGXING60-LINUX: dmesg: [   23.449872]c7 [ T1250] usb usb1: Product: MUSB HDRC host driver
+CHANGXING60-LINUX: dmesg: [   23.455758]c7 [ T1250] usb usb1: Manufacturer: Linux 5.4.254-gb50db5b6224c musb-hcd
+CHANGXING60-LINUX: dmesg: [   23.463373]c7 [ T1250] usb usb1: SerialNumber: musb-hdrc.1.auto
+CHANGXING60-LINUX: dmesg: [   23.470553]c7 [ T1250] hub 1-0:1.0: USB hub found
+CHANGXING60-LINUX: dmesg: [   23.476321]c1 [  T582] dwc3-sprd 25100000.usb3: idle state
+CHANGXING60-LINUX: dmesg: [   23.480057]c7 [ T1250] probe of 1-0:1.0 returned 1 after 9513 usecs
+CHANGXING60-LINUX: dmesg: [   23.485480]c1 [  T582] dwc3-sprd 25100000.usb3: waiting dwc3 udc start
+CHANGXING60-LINUX: dmesg: [   23.485481]c7 [ T1250] probe of usb1 returned 1 after 14985 usecs
+CHANGXING60-LINUX: dmesg: [   23.493002]c7 [ T1250] probe of musb-hdrc.1.auto returned 1 after 112903 usecs
+CHANGXING60-LINUX: dmesg: [   23.493015]c7 [ T1250] musb-sprd 64a00000.usb: not support usb data control.ret:-22 0
+CHANGXING60-LINUX: dmesg: [   23.500803]c7 [ T1250] probe of 64a00000.usb returned 1 after 137801 usecs
+CHANGXING60-LINUX: dmesg: [   23.501005]c7 [ T1250] initcall init_module.cfi_jt+0x0/0x4 [musb_sprd] returned 0 after 135076 usecs
+CHANGXING60-LINUX: dmesg: [   23.526825]c7 [ T1265] probe of ump9622-tsensor returned 1 after 16227 usecs
+CHANGXING60-LINUX: dmesg: [   23.548169]c2 [  T582] dwc3-sprd 25100000.usb3: idle state
+CHANGXING60-LINUX: dmesg: [   23.548178]c2 [  T582] dwc3-sprd 25100000.usb3: waiting dwc3 udc start
+CHANGXING60-LINUX: dmesg: [   23.555547]c7 [  T515] musb-sprd 64a00000.usb: enter into idle mode
+CHANGXING60-LINUX: dmesg: [   23.559819]c4 [ T1272] probe of 64270000.thermal returned 1 after 28979 usecs
+CHANGXING60-LINUX: dmesg: [   23.565094]c7 [  T515] sprd-hsphy 64300000.hsphy: [sprd_hsphy_shutdown]enter usbm_event_is_active(0), usbm_ssphy_get_onoff(1)
+CHANGXING60-LINUX: dmesg: [   23.577806]c7 [  T515] musb-sprd 64a00000.usb: enter into suspend mode
+CHANGXING60-LINUX: dmesg: [   23.604442]c2 [  T582] dwc3-sprd 25100000.usb3: idle state
+CHANGXING60-LINUX: dmesg: [   23.617952]c2 [  T582] dwc3-sprd 25100000.usb3: waiting dwc3 udc start
+CHANGXING60-LINUX: dmesg: [   23.641470]c7 [ T1272] probe of 64280000.thermal returned 1 after 69919 usecs
+CHANGXING60-LINUX: dmesg: [   23.688346]c2 [  T582] dwc3-sprd 25100000.usb3: idle state
+CHANGXING60-LINUX: dmesg: [   23.693746]c2 [  T582] dwc3-sprd 25100000.usb3: waiting dwc3 udc start
+CHANGXING60-LINUX: dmesg: [   23.728153]c7 [ T1272] probe of 64290000.thermal returned 1 after 86679 usecs
+CHANGXING60-LINUX: dmesg: [   23.764381]c7 [  T582] dwc3-sprd 25100000.usb3: idle state
+CHANGXING60-LINUX: dmesg: [   23.769765]c7 [  T582] dwc3-sprd 25100000.usb3: waiting dwc3 udc start
+CHANGXING60-LINUX: dmesg: [   23.807389]c7 [ T1272] probe of 642a0000.thermal returned 1 after 79231 usecs
+CHANGXING60-LINUX: dmesg: [   23.816283]c7 [  T515] sprd-ssphy 25310000.ssphy: [sprd_ssphy_shutdown]enter usbm_event_is_active(0), usbm_hsphy_get_onoff(0)
+CHANGXING60-LINUX: dmesg: [   23.816862]c2 [ T1279] probe of sc27xx-poweroff returned 1 after 6722 usecs
+CHANGXING60-LINUX: dmesg: [   23.828116]c7 [  T515] dwc3-sprd 25100000.usb3: dwc3_sprd_runtime_idle: enter
+CHANGXING60-LINUX: dmesg: [   23.828244]c0 [  T153] dwc3-sprd 25100000.usb3: idle state
+CHANGXING60-LINUX: dmesg: [   23.845499]c0 [  T153] dwc3-sprd 25100000.usb3: waiting dwc3 udc start
+CHANGXING60-LINUX: dmesg: [   23.890917]c4 [ T1294] probe of sc27xx-wdt returned 1 after 6258 usecs
+CHANGXING60-LINUX: dmesg: [   23.904331]c6 [  T582] dwc3-sprd 25100000.usb3: idle state
+CHANGXING60-LINUX: dmesg: [   23.909719]c6 [  T582] dwc3-sprd 25100000.usb3: waiting dwc3 udc start
+CHANGXING60-LINUX: dmesg: [   23.927577]c1 [    T1] CHANGXING60-LINUX: stage=modules-done loaded=94 failed=0
+CHANGXING60-LINUX: dmesg: [   23.972471]c6 [  T582] dwc3-sprd 25100000.usb3: idle state
+CHANGXING60-LINUX: dmesg: [   24.005281]c4 [    T1] CHANGXING60-LINUX: stage=modules-done-deferred 
+CHANGXING60-LINUX: dmesg: [   24.008668]c7 [  T582] dwc3-sprd 25100000.usb3: waiting dwc3 udc start
+CHANGXING60-LINUX: dmesg: [   24.018796]c5 [    T1] CHANGXING60-LINUX: stage=modules-done-pdrv dwc3-of-simple,dwc3-sprd,dwc3-unisoc,musb-sprd,sdhci_sprd_r11,sprd-adi,sprd-bc1p2,sprd-cp_dump,sprd-cpufreq-v2,sprd-debugstat,sprd-dmc,sprd-dummy-phy,sprd-efuse,sprd-eic,sprd-gpio,sprd-hsphy,sprd-i2c,sprd-pamu3,sprd-pinctrl,sprd-pmic-eic,sprd-pmic-glb,sprd-pmic-wdt,sprd-powerdebug,sprd-rtc,sprd-seth,sprd-sipa-sys,sprd-sipc,sprd-sipx,sprd-soc-id,sprd-spipe,sprd-spool,sprd-ssphy,sprd-thermal,sprd-thermal-r5p0,sprd-trusty-core,sprd-trusty-irq,sprd-trusty-log,sprd-trusty-virtio,sprd-wdt-fiq,sprd_hwspinlock,sprd_serial,sprd_time_sync,sprd_trng,ufshcd-sprd,
+CHANGXING60-LINUX: dmesg: [   24.076130]c4 [  T582] dwc3-sprd 25100000.usb3: idle state
+CHANGXING60-LINUX: dmesg: [   24.081517]c4 [  T582] dwc3-sprd 25100000.usb3: waiting dwc3 udc start
+CHANGXING60-LINUX: stage=persist-target dev=/dev/sda40 rootdisk=sda
+CHANGXING60-LINUX: stage=usb-phy-state dummyphy_dev=[/sys/bus/platform/devices/soc:ipa-apb:dummyphy,] dummyphy_drv=[../../../../../bus/platform/drivers/sprd-dummy-phy,] phyclass=[] udc=[25100000.dwc3,musb-hdrc.1.auto,] deferred=[]
+CHANGXING60-LINUX: stage=usb-configfs
+CHANGXING60-LINUX: stage=usb-netfn ncm
+CHANGXING60-LINUX: stage=usb-wait-udc
+CHANGXING60-LINUX: stage=udc udc=25100000.dwc3 available=25100000.dwc3,musb-hdrc.1.auto,
+CHANGXING60-LINUX: stage=usb-bind-start
+CHANGXING60-LINUX: stage=usb-bind-done rc=0
+CHANGXING60-LINUX: stage=usb0-netdevs dummy0,erspan0,gre0,gretap0,ifb0,ifb1,ip6_vti0,ip6gre0,ip6tnl0,ip_vti0,lo,sipa_dummy0,sipa_eth0,sipa_eth1,sipa_eth10,sipa_eth11,sipa_eth12,sipa_eth13,sipa_eth14,sipa_eth15,sipa_eth2,sipa_eth3,sipa_eth4,sipa_eth5,sipa_eth6,sipa_eth7,sipa_eth8,sipa_eth9,sipa_usb0,sit0,tunl0,usb0,
+CHANGXING60-LINUX: stage=default-boot-linux (slot a restore skipped)
+CHANGXING60-LINUX: stage=ext4-modem_control-started pid=2568
+CHANGXING60-LINUX: stage=ext4-pmic-wdt-rstoff-ready t=4
+CHANGXING60-LINUX: stage=ext4-modem-NOT-alive (CP may be down; WAN will fail)
+CHANGXING60-LINUX: stage=ext4-chroot-torn-down alive=0 rstoff=1
+CHANGXING60-LINUX: stage=switch-root root=/disk/openwrt init=/sbin/init os="OpenWrt 25.12.5"

@@ -1,0 +1,543 @@
+Oops#1 Part1
+<6>[13072.706226]c2 [T16677] sprd-wlan: ctx_id 1 recv rsp[CMD_TX_DATA]
+<4>[13072.706257]c0 [ T8217] sprd-wlan: [13072706]ctx_id 1 send[CMD_TX_DATA]
+<6>[13072.706645]c2 [T16677] sprd-wlan: ctx_id 1 recv rsp[CMD_TX_DATA]
+<6>[13073.116717]c3 [ T4366] sprd_charger_manager: cm_batt_works enter
+<6>[13073.117132]c3 [ T4366] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_get_capacity,line:1860,cap=933, data->normal_temp_cap=933
+<6>[13073.117149]c3 [ T4366] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_capacity_loss_by_temperature temp_cap=1000,cap=933
+<6>[13073.117170]c3 [ T4366] sc27xx-fgu sc27xx-fgu: normal_cap_calc,sc27xx_fgu_get_capacity,line:1908,cap=933, data->normal_temp_cap=933, data->uusoc_vbat=0
+<6>[13073.117345]c3 [ T4366] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_capacity_calibration,3232 test..
+<6>[13073.117368]c3 [ T4366] sc27xx-fgu sc27xx-fgu: capacity_cali, sc27xx_fgu_get_capacity,line:1913,cap=933, data->normal_temp_cap=933, data->uusoc_vbat=0
+<6>[13073.119492]c3 [ T4366] sc27xx-fgu sc27xx-fgu: bat_current_ma = -13, vol_adc_mv = 691, vol_ntc_uv = 691070
+<6>[13073.119519]c3 [ T4366] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_get_temp: temp = 359
+<3>[13073.119539]c3 [ T4366] charger-manager charger-manager: Can not to get board tempperature, return init_temp=250
+<6>[13073.129648]c3 [ T4366] policy: charger_policy_get_prop_by_name(): get dc psy failed!!
+<6>[13073.129654]c3 [ T4366] policy: charger_policy_check_usb_present(): Get dc present failed
+<6>[13073.129689]c3 [ T4366] charger-manager charger-manager: vbat: 4317000, vbat_avg: 4318000, OCV: 4320000, ibat: -13000, ibat_avg: -1000,  vbus: 4844000, msoc: 961, chg_sts: 1, frce_full: 0, chg_lmt_cur: 0, inpt_lmt_cur: 0, chgr_type: 1, Tboard: 250, Tbatt: 359, thm_cur: -22, thm_pwr: 0, is_fchg: 0, fchg_en: 0, tflush: 5408, tperiod: 15
+<6>[13073.129704]c3 [ T4366] charger-manager charger-manager: work_cycle = 15s, cap_one_time = 30s
+<6>[13073.129713]c3 [ T4366] charger-manager charger-manager: new_uisoc = 961, old_uisoc = 961
+<4>[13073.196849]c7 [  T516] mdbg_ring_write: 36 callbacks suppressed
+<6>[13073.196852]c7 [  T516] WCN BASE: mdbg_ring_write totallen:34041968 write:1024 wp:00000000e4677ef5 rp:0000000034c62beb [rate:3390]
+<6>[13073.307008]c2 [T10440] charger-manager charger-manager: capacity orig: 961, new: 97
+<6>[13073.307511]c2 [T10440] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_get_capacity,line:1860,cap=933, data->normal_temp_cap=933
+<6>[13073.307525]c2 [T10440] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_capacity_loss_by_temperature temp_cap=1000,cap=933
+<6>[13073.307537]c2 [T10440] sc27xx-fgu sc27xx-fgu: normal_cap_calc,sc27xx_fgu_get_capacity,line:1908,cap=933, data->normal_temp_cap=933, data->uusoc_vbat=0
+<6>[13073.307900]c2 [T10440] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_capacity_calibration,3232 test..
+<6>[13073.307913]c2 [T10440] sc27xx-fgu sc27xx-fgu: capacity_cali, sc27xx_fgu_get_capacity,line:1913,cap=933, data->normal_temp_cap=933, data->uusoc_vbat=0
+<4>[13073.317875]c0 [ T5862] sprd-wlan: [13073317]ctx_id 1 send[CMD_GET_STATION]
+<6>[13073.327006]c0 [ T8217] sprd-wlan: ctx_id 1 recv rsp[CMD_GET_STATION]
+<6>[13073.327039]c0 [ T5862] misc wlan wlan0: sprd_cfg80211_get_station signal 0 noise=0, txlegacy 0 txmcs:0 txflags:0x:0, rxlegacy 0 rxmcs:6 rxflags:0x:a
+<6>[13073.376630]c3 [ T4366] WCN BASE: WCN_VER:Platform Version:MARLIN3_20A_RLS2_W24.29.5~Project Version:sc2355_marlin3_lite~07-19-2024 09:58:12~
+<6>[13073.376637]c3 [ T4366] WCN BASE: tx:at+loopcheck=13073082,204601
+<6>[13073.376637]c3 [ T4366] 
+<6>[13073.377495]c3 [ T4366] WCN BASE: mdbg_tx_cb, chn:0
+<6>[13073.378085]c7 [ T5071] WCN BASE: : rx:loopcheck_ack:ap_send=13073082,cp2_bootup=204601,cp2_send=13072915
+<6>[13073.378085]c7 [ T5071] 
+<6>[13074.670973]c5 [T16227] [ASoC:ump9620] dac switch 0x0,shift 5, get 0
+<6>[13074.670990]c5 [T16227] [ASoC:ump9620] dac switch 0x0,shift 4, get 0
+<6>[13074.671115]c5 [T16227] [ASoC: VBC ] dsp_audio_zoom_ratio_get: 4512:dsp_audio_zoom_ratio_get value = 0
+<6>[13074.671134]c5 [T16227] [ASoC: VBC ] dsp_audio_zoom_ratio_get: 4512:dsp_audio_zoom_ratio_get value = 0
+<6>[13074.671223]c5 [T16227] [ASoC: VBC ] dsp_audio_zoom_st_get: 4482:dsp_audio_zoom_st_get value = 0
+<6>[13074.671266]c5 [T16227] [ASoC:ump9620] chip_id 0x7520a002, ver_id 0xa002, hw_index 8
+<6>[13074.671337]c5 [T16227] [ASoC:ump9620] sprd_codec_get_ana_chip_id ana_chip_ver_id = a002
+<6>[13074.671341]c5 [T16227] [ASoC:ump9620] sprd_codec_get_ana_chip_id ana_chip_ver_id = a002
+<6>[13074.671538]c5 [T16227] [sprd-aud-agdsp] agdsp_access_enable, ap_access_ena_reg (wake up dsp) val = 0x20
+<6>[13074.671568]c5 [T16227] [sprd-aud-agdsp] agdsp_access_enable, ap_access_ena_reg (wake up done) val = 0x20
+<6>[13074.671594]c5 [T16227] [sprd-aud-agdsp] agdsp_access_enable, ap_access_ena_reg (wake up dsp) val = 0x20
+<6>[13074.671618]c5 [T16227] [sprd-aud-agdsp] agdsp_access_enable, ap_access_ena_reg (wake up done) val = 0x20
+<6>[13074.671685]c5 [T16227] [ASoC:ump9620] dac switch 0x0,shift 1, get 0
+<6>[13074.671698]c5 [T16227] [ASoC:ump9620] dac switch 0x0,shift 0, get 0
+<6>[13074.671813]c5 [T16227] [ASoC:ump9620] dac switch 0x0,shift 3, get 0
+<6>[13074.671849]c5 [T16227] [ASoC:ump9620] dac switch 0x0,shift 2, get 0
+<6>[13074.671961]c5 [T16227] [ASoC:ump9620] ramp read SDM_H 0 ( 0x0)
+<6>[13074.671965]c5 [T16227] [ASoC:ump9620] ramp read SDM_H 0 ( 0x0)
+<6>[13074.671976]c5 [T16227] [ASoC:ump9620] ramp read SDM_L 0 ( 0x0)
+<6>[13074.671979]c5 [T16227] [ASoC:ump9620] ramp read SDM_L 0 ( 0x0)
+<6>[13074.675449]c5 [T16227] [ASoC:BOARD] Ext Spk Switch On
+<6>[13074.681551]c7 [T16229] [ASoC:ump9620] dac switch 0x0,shift 5, get 0
+<6>[13074.681566]c7 [T16229] [ASoC:ump9620] dac switch 0x0,shift 4, get 0
+<6>[13074.681625]c7 [T16229] [ASoC: VBC ] dsp_audio_zoom_ratio_get: 4512:dsp_audio_zoom_ratio_get value = 0
+<6>[13074.681628]c7 [T16229] [ASoC: VBC ] dsp_audio_zoom_ratio_get: 4512:dsp_audio_zoom_ratio_get value = 0
+<6>[13074.681639]c7 [T16229] [ASoC: VBC ] dsp_audio_zoom_st_get: 4482:dsp_audio_zoom_st_get value = 0
+<6>[13074.681648]c7 [T16229] [ASoC:ump9620] chip_id 0x7520a002, ver_id 0xa002, hw_index 8
+<6>[13074.681695]c7 [T16229] [ASoC:ump9620] sprd_codec_get_ana_chip_id ana_chip_ver_id = a002
+<6>[13074.681697]c7 [T16229] [ASoC:ump9620] sprd_codec_get_ana_chip_id ana_chip_ver_id = a002
+<6>[13074.681861]c7 [T16229] [sprd-aud-agdsp] agdsp_access_enable, ap_access_ena_reg (wake up dsp) val = 0x20
+<6>[13074.681891]c7 [T16229] [sprd-aud-agdsp] agdsp_access_enable, ap_access_ena_reg (wake up done) val = 0x20
+<6>[13074.681913]c7 [T16229] [sprd-aud-agdsp] agdsp_access_enable, ap_access_ena_reg (wake up dsp) val = 0x20
+<6>[13074.681937]c7 [T16229] [sprd-aud-agdsp] agdsp_access_enable, ap_access_ena_reg (wake up done) val = 0x20
+<6>[13074.681991]c7 [T16229] [ASoC:ump9620] dac switch 0x0,shift 1, get 0
+<6>[13074.682001]c7 [T16229] [ASoC:ump9620] dac switch 0x0,shift 0, get 0
+<6>[13074.682097]c7 [T16229] [ASoC:ump9620] dac switch 0x0,shift 3, get 0
+<6>[13074.682127]c7 [T16229] [ASoC:ump9620] dac switch 0x0,shift 2, get 0
+<6>[13074.682217]c7 [T16229] [ASoC:ump9620] ramp read SDM_H 0 ( 0x0)
+<6>[13074.682220]c7 [T16229] [ASoC:ump9620] ramp read SDM_H 0 ( 0x0)
+<6>[13074.682228]c7 [T16229] [ASoC:ump9620] ramp read SDM_L 0 ( 0x0)
+<6>[13074.682231]c7 [T16229] [ASoC:ump9620] ramp read SDM_L 0 ( 0x0)
+<6>[13074.687011]c7 [T16231] [ASoC: PCM ] sprd_pcm_open FE_DAI_ID_MM_P Open Playback
+<6>[13074.687019]c7 [T16231] [sprd-aud-agdsp] agdsp_access_enable, ap_access_ena_reg (wake up dsp) val = 0x20
+<6>[13074.687047]c7 [T16231] [sprd-aud-agdsp] agdsp_access_enable, ap_access_ena_reg (wake up done) val = 0x20
+<6>[13074.687051]c7 [T16231] [Audio:MEM] audio_mem_alloc mem_type=5 addr = 0xaf723000, size=0xff0
+<6>[13074.687056]c7 [T16231] [Audio:MEM] audio_mem_alloc mem_type=5 addr = 0xaf724000, size=0xff0
+<6>[13074.687059]c7 [T16231] [ASoC: PCM ] rtd->dma_cfg_virt[0] =0xffffffc013d45000, rtd->dma_cfg_phy[0] =0xaf723000,
+<6>[13074.687059]c7 [T16231] [ASoC: PCM ] rtd->dma_cfg_virt[1]=0xffffffc013d46000,rtd->dma_cfg_phy[1]=0xaf724000,
+<6>[13074.687061]c7 [T16231] [ASoC: PCM ] runtime->hw.periods_max*(sizeof(struct sprd_dma_cfg)=4080,
+<6>[13074.687062]c7 [T16231] [ASoC: PCM ] sizeof(struct sprd_dma_cfg) = 120, size_inout=4080
+<6>[13074.687063]c7 [T16231] [ASoC: PCM ] sprd_pcm_preallocate_dma_ddr32_buffer alloc size = 0x20000 for data
+<6>[13074.687064]c7 [T16231] [Audio:MEM] audio_mem_alloc mem_type=5 addr = 0xaf725000, size=0x20000
+<6>[13074.687068]c7 [T16231] [ASoC: PCM ] sprd_pcm_preallocate_dma_ddr32_buffer, sprd_pcm_preallocate_dma_buffer buf->area(virt)=0xffffffc013d47000, buf->addr(phy)=0xaf725000, size=131072
+<6>[13074.687404]c7 [T16231] [ASoC: FE.VBC ] fe_hw_params fe dai: FE_DAI_ID_MM_P(25) playback
+<6>[13074.687411]c7 [T16231] [MCDT] check_agcp_mcdt_clock: enabled the agcp mcdt clock (eb0=0x2041000)
+<6>[13074.687418]c7 [T16231] [MCDT] mcdt_dac_dma_enable 1020 mcdt_dma_ap_channel=2
+<6>[13074.687421]c7 [T16231] [ASoC: PCM ] (pcm) sprd_pcm_hw_params, cpudai_id=25
+<6>[13074.687422]c7 [T16231] [ASoC: PCM ] chan=1 totsize=48000 period=12000
+<6>[13074.687424]c7 [T16231] [ASoC: PCM ] desc->src_step=4, dest_step=0
+<6>[13074.687455]c7 [T16231] [ASoC: PCM ] Chan0 DMA ID=7
+<6>[13074.687457]c7 [T16231] [ASoC: PCM ] dma_buff_phys[0] 2943504384
+<6>[13074.687457]c7 [T16231] [ASoC: PCM ] sprd_pcm_hw_params, block 12000
+<6>[13074.687462]c7 [T16231] [ASoC: PCM ] src_dw=4, dst_dw=4 frag=0, burst:640, slave_id=7, step=4, ll_cfg_virt_addr=00000000f741940f, ll_cfg_phy_addr=2943496192 ,dst_addr:1448083464, src_addr:2943504384,chan=0
+<6>[13074.687464]c7 [T16231] [ASoC: PCM ] sg_dma_len=12000, periods=4, sg_dma_address=000000001c66793b, flag:0, chan=0 node=0
+<6>[13074.687465]c7 [T16231] [ASoC: PCM ] sg_dma_len=12000, periods=4, sg_dma_address=00000000c27e774f, flag:0, chan=0 node=1
+<6>[13074.687466]c7 [T16231] [ASoC: PCM ] sg_dma_len=12000, periods=4, sg_dma_address=00000000e7d9def3, flag:0, chan=0 node=2
+<6>[13074.687467]c7 [T16231] [ASoC: PCM ] sg_dma_len=12000, periods=4, sg_dma_address=00000000510d5753, flag:0, chan=0 node=3
+<6>[13074.687467]c7 [T16231] [ASoC: PCM ] Node Size:4
+<3>[13074.687470]c7 [T16231] [ASoC: PCM ] return 0
+<3>[13074.691674]c7 [T16231]  FE_MM_P: ASoC: no backend DAIs enabled for FE_MM_P
+<6>[13074.698557]c7 [T16231] [ASoC: PCM ] sprd_pcm_hw_free, FE_DAI_ID_MM_P cpu_dai->id = 25 Playback
+<6>[13074.698558]c7 [T16231] [ASoC: PCM ] sprd_pcm_hw_free release id=0
+<6>[13074.698572]c7 [T16231] [ASoC: FE.VBC ] fe_hw_free fe dai: FE_DAI_ID_MM_P(25) playback
+<6>[13074.698576]c7 [T16231] [MCDT] check_agcp_mcdt_clock: enabled the agcp mcdt clock (eb0=0x3041000)
+<6>[13074.698599]c7 [T16231] [ASoC: PCM ] sprd_pcm_close FE_DAI_ID_MM_P Close Playback
+<6>[13074.702251]c7 [T16233] [ASoC: PCM ] sprd_pcm_open FE_DAI_ID_NORMAL_AP01 Open Playback
+<6>[13074.702260]c7 [T16233] [sprd-aud-agdsp] agdsp_access_enable, ap_access_ena_reg (wake up dsp) val = 0x20
+<6>[13074.702288]c7 [T16233] [sprd-aud-agdsp] agdsp_access_enable, ap_access_ena_reg (wake up done) val = 0x20
+<6>[13074.702292]c7 [T16233] [Audio:MEM] audio_mem_alloc mem_type=5 addr = 0xaf723000, size=0xff0
+<6>[13074.702298]c7 [T16233] [Audio:MEM] audio_mem_alloc mem_type=5 addr = 0xaf724000, size=0xff0
+<6>[13074.702302]c7 [T16233] [ASoC: PCM ] rtd->dma_cfg_virt[0] =0xffffffc013d67000, rtd->dma_cfg_phy[0] =0xaf723000,
+<6>[13074.702303]c7 [T16233] [ASoC: PCM ] rtd->dma_cfg_virt[1]=0xffffffc013d68000,rtd->dma_cfg_phy[1]=0xaf724000,
+<6>[13074.702304]c7 [T16233] [ASoC: PCM ] runtime->hw.periods_max*(sizeof(struct sprd_dma_cfg)=4080,
+<6>[13074.702306]c7 [T16233] [ASoC: PCM ] sizeof(struct sprd_dma_cfg) = 120, size_inout=4080
+<6>[13074.702307]c7 [T16233] [ASoC: PCM ] sprd_pcm_preallocate_dma_ddr32_buffer alloc size = 0x20000 for data
+<6>[13074.702309]c7 [T16233] [Audio:MEM] audio_mem_alloc mem_type=5 addr = 0xaf725000, size=0x20000
+<6>[13074.702314]c7 [T16233] [ASoC: PCM ] sprd_pcm_preallocate_dma_ddr32_buffer, sprd_pcm_preallocate_dma_buffer buf->area(virt)=0xffffffc013d69000, buf->addr(phy)=0xaf725000, size=131072
+<6>[13074.702770]c7 [T16233] [ASoC: FE.VBC ] fe_hw_params fe dai: FE_DAI_ID_NORMAL_AP01(0) playback
+<6>[13074.702775]c7 [T16233] [ASoC: PCM ] (pcm) sprd_pcm_hw_params, cpudai_id=0
+<6>[13074.702777]c7 [T16233] [ASoC: PCM ] chan=1 totsize=48000 period=12000
+<6>[13074.702779]c7 [T16233] [ASoC: PCM ] desc->src_step=2, dest_step=0
+<6>[13074.702809]c7 [T16233] [ASoC: PCM ] Chan0 DMA ID=1
+<6>[13074.702810]c7 [T16233] [ASoC: PCM ] dma_buff_phys[0] 2943504384
+<6>[13074.702811]c7 [T16233] [ASoC: PCM ] sprd_pcm_hw_params, block 12000
+<6>[13074.702816]c7 [T16233] [ASoC: PCM ] src_dw=2, dst_dw=2 frag=0, burst:160, slave_id=1, step=2, ll_cfg_virt_addr=00000000d8f1f15b, ll_cfg_phy_addr=2943496192 ,dst_addr:1448148992, src_addr:2943504384,chan=0
+<6>[13074.702818]c7 [T16233] [ASoC: PCM ] sg_dma_len=12000, periods=4, sg_dma_address=000000001c66793b, flag:0, chan=0 node=0
+<6>[13074.702819]c7 [T16233] [ASoC: PCM ] sg_dma_len=12000, periods=4, sg_dma_address=00000000c27e774f, flag:0, chan=0 node=1
+<6>[13074.702821]c7 [T16233] [ASoC: PCM ] sg_dma_len=12000, periods=4, sg_dma_address=00000000e7d9def3, flag:0, chan=0 node=2
+<6>[13074.702822]c7 [T16233] [ASoC: PCM ] sg_dma_len=12000, periods=4, sg_dma_address=00000000510d5753, flag:0, chan=0 node=3
+<6>[13074.702823]c7 [T16233] [ASoC: PCM ] Node Size:4
+<3>[13074.702826]c7 [T16233] [ASoC: PCM ] return 0
+<3>[13074.707287]c7 [T16233]  FE_NORMAL_AP01: ASoC: no backend DAIs enabled for FE_NORMAL_AP01
+<6>[13074.715412]c7 [T16233] [ASoC: PCM ] sprd_pcm_hw_free, FE_DAI_ID_NORMAL_AP01 cpu_dai->id = 0 Playback
+<6>[13074.715413]c7 [T16233] [ASoC: PCM ] sprd_pcm_hw_free release id=0
+<6>[13074.715433]c7 [T16233] [ASoC: FE.VBC ] fe_hw_free fe dai: FE_DAI_ID_NORMAL_AP01(0) playback
+<6>[13074.715444]c7 [T16233] [ASoC: PCM ] sprd_pcm_close FE_DAI_ID_NORMAL_AP01 Close Playback
+<6>[13075.346964]c1 [T10440] charger-manager charger-manager: capacity orig: 961, new: 97
+<6>[13075.347461]c1 [T10440] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_get_capacity,line:1860,cap=933, data->normal_temp_cap=933
+<6>[13075.347475]c1 [T10440] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_capacity_loss_by_temperature temp_cap=1000,cap=933
+<6>[13075.347488]c1 [T10440] sc27xx-fgu sc27xx-fgu: normal_cap_calc,sc27xx_fgu_get_capacity,line:1908,cap=933, data->normal_temp_cap=933, data->uusoc_vbat=0
+<6>[13075.347854]c1 [T10440] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_capacity_calibration,3232 test..
+<6>[13075.347867]c1 [T10440] sc27xx-fgu sc27xx-fgu: capacity_cali, sc27xx_fgu_get_capacity,line:1913,cap=933, data->normal_temp_cap=933, data->uusoc_vbat=0
+<6>[13077.385192]c1 [T10440] charger-manager charger-manager: capacity orig: 961, new: 97
+<6>[13077.385645]c1 [T10440] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_get_capacity,line:1860,cap=933, data->normal_temp_cap=933
+<6>[13077.385659]c1 [T10440] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_capacity_loss_by_temperature temp_cap=1000,cap=933
+<6>[13077.385671]c1 [T10440] sc27xx-fgu sc27xx-fgu: normal_cap_calc,sc27xx_fgu_get_capacity,line:1908,cap=933, data->normal_temp_cap=933, data->uusoc_vbat=0
+<6>[13077.385872]c1 [T10440] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_capacity_calibration,3232 test..
+<6>[13077.385885]c1 [T10440] sc27xx-fgu sc27xx-fgu: capacity_cali, sc27xx_fgu_get_capacity,line:1913,cap=933, data->normal_temp_cap=933, data->uusoc_vbat=0
+<4>[13077.396941]c0 [ T5862] sprd-wlan: [13077396]ctx_id 1 send[CMD_GET_STATION]
+<6>[13077.406678]c0 [ T8217] sprd-wlan: ctx_id 1 recv rsp[CMD_GET_STATION]
+<6>[13077.406714]c0 [ T5862] misc wlan wlan0: sprd_cfg80211_get_station signal 0 noise=0, txlegacy 0 txmcs:0 txflags:0x:0, rxlegacy 0 rxmcs:6 rxflags:0x:a
+<6>[13078.367090]c2 [    C2] sipa_rm: SIPA_RM_RES_PROD_CP state changed 2->0
+<6>[13078.367107]c2 [    C2] sipa_rm: SIPA_RM_RES_CONS_WWAN_UL state changed 2->0
+<6>[13078.367249]c0 [T18497] sipa_dele: smsg_send, dst=5 chan=120 type=5 flag=2
+<6>[13078.367292]c0 [T18497] sipa_eth: dev sipa_eth0 SIPA LEAVE FLOWCTRL
+<6>[13078.498919]c3 [ T4366] WCN BASE: WCN_VER:Platform Version:MARLIN3_20A_RLS2_W24.29.5~Project Version:sc2355_marlin3_lite~07-19-2024 09:58:12~
+<6>[13078.498925]c3 [ T4366] WCN BASE: tx:at+loopcheck=13078203,204601
+<6>[13078.498925]c3 [ T4366] 
+<6>[13078.508606]c3 [ T4366] WCN BASE: mdbg_tx_cb, chn:0
+<6>[13078.509324]c7 [ T5071] WCN BASE: : rx:loopcheck_ack:ap_send=13078203,cp2_bootup=204601,cp2_send=13078046
+<6>[13078.509324]c7 [ T5071] 
+<6>[13078.661930]c1 [ T1000] sipa_dele: smsg_recv, smsg_cnt=2806, dst=5, chan=120, type=5, flag=0x2, value=0x00000000
+<6>[13078.661942]c1 [ T1000] sipa_dele: prod_id:4, on_cmd, flag = 2
+<6>[13078.661948]c1 [ T1000] sipa_dele: sipa pd_eb_flag = 1, pd_get_flag = 1
+<6>[13078.661992]c1 [ T1000] sipa_rm: SIPA_RM_RES_PROD_IPA state changed 2->0
+<6>[13078.662040]c1 [ T1000] sipa_rm: SIPA_RM_RES_CONS_WWAN_DL state changed 2->0
+<6>[13078.662053]c1 [ T1000] sipa_dele: smsg_recv, smsg_cnt=2807, dst=5, chan=120, type=5, flag=0x8, value=0x00000000
+<6>[13078.662057]c1 [ T1000] sipa_dele: prod_id:4, on_cmd, flag = 8
+<6>[13078.662080]c1 [ T1000] sipa_dele: sipa pd_eb_flag = 0, pd_get_flag = 0
+<6>[13078.662265]c1 [ T2595] sipa 25220000.sipa: sipa ready to suspend and change to single
+<6>[13078.662278]c1 [ T2595] sipa 25220000.sipa: sipa prepare suspend finished
+<6>[13078.917457]c0 [ T8217] sprd-wlan: sc2355_find_lut_index,AP mode, group bssid,
+<6>[13078.917457]c0 [ T8217] lut not found, ctx_id:1, return lut:4
+<6>[13078.917502]c0 [ T8217] sprd-wlan: sc2355_find_lut_index,AP mode, group bssid,
+<6>[13078.917502]c0 [ T8217] lut not found, ctx_id:1, return lut:4
+<6>[13078.917506]c0 [ T8217] sprd-wlan: tx_mc_pkt,AP mode, multicast bssid: 33:33:00:00:00:fb
+<6>[13078.917508]c0 [ T8217] sprd-wlan: sc2355_find_lut_index,AP mode, group bssid,
+<6>[13078.917508]c0 [ T8217] lut not found, ctx_id:1, return lut:4
+<6>[13078.917527]c0 [ T8217] sprd-wlan: sc2355_find_lut_index,AP mode, group bssid,
+<6>[13078.917527]c0 [ T8217] lut not found, ctx_id:1, return lut:4
+<4>[13078.917543]c0 [ T8217] sprd-wlan: [13078917]ctx_id 1 send[CMD_TX_DATA]
+<6>[13078.917593]c2 [    C2] sprd-wlan: sc2355_find_lut_index,AP mode, group bssid,
+<6>[13078.917593]c2 [    C2] lut not found, ctx_id:1, return lut:4
+<6>[13078.917596]c2 [    C2] sprd-wlan: tx_mc_pkt,AP mode, multicast bssid: 33:33:00:00:00:fb
+<6>[13078.917599]c2 [    C2] sprd-wlan: sc2355_find_lut_index,AP mode, group bssid,
+<6>[13078.917599]c2 [    C2] lut not found, ctx_id:1, return lut:4
+<6>[13078.917949]c2 [T16677] sprd-wlan: ctx_id 1 recv rsp[CMD_TX_DATA]
+<4>[13078.917982]c0 [ T8217] sprd-wlan: [13078917]ctx_id 1 send[CMD_TX_DATA]
+<6>[13078.918403]c2 [T16677] sprd-wlan: ctx_id 1 recv rsp[CMD_TX_DATA]
+<6>[13079.440065]c1 [T10440] charger-manager charger-manager: capacity orig: 961, new: 97
+<6>[13079.440529]c1 [T10440] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_get_capacity,line:1860,cap=933, data->normal_temp_cap=933
+<6>[13079.440543]c1 [T10440] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_capacity_loss_by_temperature temp_cap=1000,cap=933
+<6>[13079.440556]c1 [T10440] sc27xx-fgu sc27xx-fgu: normal_cap_calc,sc27xx_fgu_get_capacity,line:1908,cap=933, data->normal_temp_cap=933, data->uusoc_vbat=0
+<6>[13079.440825]c1 [T10440] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_capacity_calibration,3232 test..
+<6>[13079.440839]c1 [T10440] sc27xx-fgu sc27xx-fgu: capacity_cali, sc27xx_fgu_get_capacity,line:1913,cap=933, data->normal_temp_cap=933, data->uusoc_vbat=0
+<3>[13079.883855]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+<6>[13081.477097]c1 [T10440] charger-manager charger-manager: capacity orig: 961, new: 97
+<6>[13081.477591]c1 [T10440] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_get_capacity,line:1860,cap=933, data->normal_temp_cap=933
+<6>[13081.477604]c1 [T10440] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_capacity_loss_by_temperature temp_cap=1000,cap=933
+<6>[13081.477616]c1 [T10440] sc27xx-fgu sc27xx-fgu: normal_cap_calc,sc27xx_fgu_get_capacity,line:1908,cap=933, data->normal_temp_cap=933, data->uusoc_vbat=0
+<6>[13081.477993]c1 [T10440] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_capacity_calibration,3232 test..
+<6>[13081.478007]c1 [T10440] sc27xx-fgu sc27xx-fgu: capacity_cali, sc27xx_fgu_get_capacity,line:1913,cap=933, data->normal_temp_cap=933, data->uusoc_vbat=0
+<4>[13081.487995]c0 [ T5862] sprd-wlan: [13081487]ctx_id 1 send[CMD_GET_STATION]
+<6>[13081.498712]c0 [ T8217] sprd-wlan: ctx_id 1 recv rsp[CMD_GET_STATION]
+<6>[13081.498749]c0 [ T5862] misc wlan wlan0: sprd_cfg80211_get_station signal 0 noise=0, txlegacy 0 txmcs:0 txflags:0x:0, rxlegacy 0 rxmcs:6 rxflags:0x:a
+<6>[13083.516162]c1 [T10440] charger-manager charger-manager: capacity orig: 961, new: 97
+<6>[13083.516618]c1 [T10440] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_get_capacity,line:1860,cap=933, data->normal_temp_cap=933
+<6>[13083.516631]c1 [T10440] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_capacity_loss_by_temperature temp_cap=1000,cap=933
+<6>[13083.516644]c1 [T10440] sc27xx-fgu sc27xx-fgu: normal_cap_calc,sc27xx_fgu_get_capacity,line:1908,cap=933, data->normal_temp_cap=933, data->uusoc_vbat=0
+<6>[13083.516812]c1 [T10440] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_discharging_trend: discharging
+<3>[13083.516831]c1 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4317data->uusoc_vbat=0
+<6>[13083.538098]c1 [T10440] sc27xx-fgu sc27xx-fgu: capacity_cali, sc27xx_fgu_get_capacity,line:1913,cap=933, data->normal_temp_cap=933, data->uusoc_vbat=0
+<6>[13083.619159]c0 [T18497] WCN BASE: WCN_VER:Platform Version:MARLIN3_20A_RLS2_W24.29.5~Project Version:sc2355_marlin3_lite~07-19-2024 09:58:12~
+<6>[13083.619166]c0 [T18497] WCN BASE: tx:at+loopcheck=13083323,204601
+<6>[13083.619166]c0 [T18497] 
+<6>[13083.628128]c0 [T18497] WCN BASE: mdbg_tx_cb, chn:0
+<6>[13083.628928]c7 [ T5071] WCN BASE: : rx:loopcheck_ack:ap_send=13083323,cp2_bootup=204601,cp2_send=13083166
+<6>[13083.628928]c7 [ T5071] 
+<4>[13085.480470]c7 [  T516] mdbg_ring_write: 19 callbacks suppressed
+<6>[13085.480473]c7 [  T516] WCN BASE: mdbg_ring_write totallen:34064848 write:1424 wp:00000000464bd897 rp:0000000034c62beb [rate:1906]
+<6>[13085.570600]c1 [T10440] charger-manager charger-manager: capacity orig: 961, new: 97
+<6>[13085.571107]c1 [T10440] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_get_capacity,line:1860,cap=933, data->normal_temp_cap=933
+<6>[13085.571127]c1 [T10440] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_capacity_loss_by_temperature temp_cap=1000,cap=933
+<6>[13085.571150]c1 [T10440] sc27xx-fgu sc27xx-fgu: normal_cap_calc,sc27xx_fgu_get_capacity,line:1908,cap=933, data->normal_temp_cap=933, data->uusoc_vbat=0
+<6>[13085.571513]c1 [T10440] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_discharging_trend: discharging
+<3>[13085.571547]c1 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4318data->uusoc_vbat=0
+<6>[13085.592828]c1 [T10440] sc27xx-fgu sc27xx-fgu: capacity_cali, sc27xx_fgu_get_capacity,line:1913,cap=933, data->normal_temp_cap=933, data->uusoc_vbat=0
+<4>[13085.605279]c0 [ T5862] sprd-wlan: [13085605]ctx_id 1 send[CMD_GET_STATION]
+<6>[13085.615204]c0 [ T8217] sprd-wlan: ctx_id 1 recv rsp[CMD_GET_STATION]
+<6>[13085.615257]c0 [ T5862] misc wlan wlan0: sprd_cfg80211_get_station signal 0 noise=0, txlegacy 0 txmcs:0 txflags:0x:0, rxlegacy 0 rxmcs:6 rxflags:0x:a
+<6>[13085.757931]c2 [T12954] sprd-wlan: dns,check:5392,skb->ip_summed:3
+<6>[13085.757935]c2 [T12954] sprd-wlan: csum:c7ce,check:3831
+<6>[13085.757940]c2 [T12954] sprd-wlan: tx_filter_ip_pkt special_data_flag: 32
+<6>[13085.758062]c2 [T12954] sprd-wlan: dns,check:4492,skb->ip_summed:3
+<6>[13085.758064]c2 [T12954] sprd-wlan: csum:f3ed,check:c12
+<6>[13085.758066]c2 [T12954] sprd-wlan: tx_filter_ip_pkt special_data_flag: 32
+<4>[13085.758071]c0 [ T8217] sprd-wlan: [13085758]ctx_id 1 send[CMD_TX_DATA]
+<6>[13085.759710]c2 [T16677] sprd-wlan: ctx_id 1 recv rsp[CMD_TX_DATA]
+<4>[13085.759741]c0 [ T8217] sprd-wlan: [13085759]ctx_id 1 send[CMD_TX_DATA]
+<6>[13085.760640]c2 [T16677] sprd-wlan: ctx_id 1 recv rsp[CMD_TX_DATA]
+<6>[13085.916714]c5 [  T264] sc27xx-fgu sc27xx-fgu: init_cap = 913, init_mah = 0, init_clbcnt = 12625510, cur_clbcnt = 12896919, normal_cap = 933, data->cc_mah = 57, Tbat = 359, uusoc_vbat = 0, uusoc_mah = 0, cur_1000ma_adc = 667, vol_1000mv_adc = 688, track_sts = 1
+<6>[13086.076834]c0 [T18497] policy: charger_policy_get_prop_by_name(): get dc psy failed!!
+<6>[13086.076844]c0 [T18497] policy: charger_policy_check_usb_present(): Get dc present failed
+<6>[13087.641614]c1 [T10440] charger-manager charger-manager: capacity orig: 961, new: 97
+<6>[13087.642229]c1 [T10440] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_get_capacity,line:1860,cap=933, data->normal_temp_cap=933
+<6>[13087.642245]c1 [T10440] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_capacity_loss_by_temperature temp_cap=1000,cap=933
+<6>[13087.642254]c1 [T10440] sc27xx-fgu sc27xx-fgu: normal_cap_calc,sc27xx_fgu_get_capacity,line:1908,cap=933, data->normal_temp_cap=933, data->uusoc_vbat=0
+<6>[13087.642624]c1 [T10440] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_capacity_calibration,3232 test..
+<6>[13087.642640]c1 [T10440] sc27xx-fgu sc27xx-fgu: capacity_cali, sc27xx_fgu_get_capacity,line:1913,cap=933, data->normal_temp_cap=933, data->uusoc_vbat=0
+<3>[13087.884043]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+<6>[13088.220120]c3 [T18497] sprd_charger_manager: cm_batt_works enter
+<6>[13088.220583]c3 [T18497] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_get_capacity,line:1860,cap=933, data->normal_temp_cap=933
+<6>[13088.220595]c3 [T18497] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_capacity_loss_by_temperature temp_cap=1000,cap=933
+<6>[13088.220608]c3 [T18497] sc27xx-fgu sc27xx-fgu: normal_cap_calc,sc27xx_fgu_get_capacity,line:1908,cap=933, data->normal_temp_cap=933, data->uusoc_vbat=0
+<6>[13088.220784]c3 [T18497] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_capacity_calibration,3232 test..
+<6>[13088.220796]c3 [T18497] sc27xx-fgu sc27xx-fgu: capacity_cali, sc27xx_fgu_get_capacity,line:1913,cap=933, data->normal_temp_cap=933, data->uusoc_vbat=0
+<6>[13088.222554]c3 [T18497] sc27xx-fgu sc27xx-fgu: bat_current_ma = 0, vol_adc_mv = 692, vol_ntc_uv = 692000
+<6>[13088.222566]c3 [T18497] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_get_temp: temp = 358
+<3>[13088.222580]c3 [T18497] charger-manager charger-manager: Can not to get board tempperature, return init_temp=250
+<6>[13088.232868]c3 [T18497] policy: charger_policy_get_prop_by_name(): get dc psy failed!!
+<6>[13088.232888]c3 [T18497] policy: charger_policy_check_usb_present(): Get dc present failed
+<6>[13088.232926]c3 [T18497] charger-manager charger-manager: vbat: 4320000, vbat_avg: 4318000, OCV: 4320000, ibat: 0, ibat_avg: 0,  vbus: 4831000, msoc: 961, chg_sts: 1, frce_full: 0, chg_lmt_cur: 0, inpt_lmt_cur: 0, chgr_type: 1, Tboard: 250, Tbatt: 359, thm_cur: -22, thm_pwr: 0, is_fchg: 0, fchg_en: 0, tflush: 5423, tperiod: 15
+<6>[13088.232940]c3 [T18497] charger-manager charger-manager: work_cycle = 15s, cap_one_time = 30s
+<6>[13088.232949]c3 [T18497] charger-manager charger-manager: new_uisoc = 961, old_uisoc = 961
+<6>[13088.739011]c3 [T18497] WCN BASE: WCN_VER:Platform Version:MARLIN3_20A_RLS2_W24.29.5~Project Version:sc2355_marlin3_lite~07-19-2024 09:58:12~
+<6>[13088.739018]c3 [T18497] WCN BASE: tx:at+loopcheck=13088443,204601
+<6>[13088.739018]c3 [T18497] 
+<6>[13088.748860]c3 [T18497] WCN BASE: mdbg_tx_cb, chn:0
+<6>[13088.749578]c7 [ T5071] WCN BASE: : rx:loopcheck_ack:ap_send=13088443,cp2_bootup=204601,cp2_send=13088286
+<6>[13088.749578]c7 [ T5071] 
+<6>[13089.680678]c1 [T10440] charger-manager charger-manager: capacity orig: 961, new: 97
+<6>[13089.681200]c1 [T10440] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_get_capacity,line:1860,cap=933, data->normal_temp_cap=933
+<6>[13089.681218]c1 [T10440] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_capacity_loss_by_temperature temp_cap=1000,cap=933
+<6>[13089.681236]c1 [T10440] sc27xx-fgu sc27xx-fgu: normal_cap_calc,sc27xx_fgu_get_capacity,line:1908,cap=933, data->normal_temp_cap=933, data->uusoc_vbat=0
+<6>[13089.681430]c1 [T10440] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_capacity_calibration,3232 test..
+<6>[13089.681445]c1 [T10440] sc27xx-fgu sc27xx-fgu: capacity_cali, sc27xx_fgu_get_capacity,line:1913,cap=933, data->normal_temp_cap=933, data->uusoc_vbat=0
+<4>[13089.693374]c0 [ T5862] sprd-wlan: [13089693]ctx_id 1 send[CMD_GET_STATION]
+<6>[13089.703311]c0 [ T8217] sprd-wlan: ctx_id 1 recv rsp[CMD_GET_STATION]
+<6>[13089.703354]c0 [ T5862] misc wlan wlan0: sprd_cfg80211_get_station signal 0 noise=0, txlegacy 0 txmcs:0 txflags:0x:0, rxlegacy 0 rxmcs:6 rxflags:0x:a
+<6>[13090.298040]c7 [T16848] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_get_capacity,line:1860,cap=933, data->normal_temp_cap=933
+<6>[13090.298049]c7 [T16848] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_capacity_loss_by_temperature temp_cap=1000,cap=933
+<6>[13090.298065]c7 [T16848] sc27xx-fgu sc27xx-fgu: normal_cap_calc,sc27xx_fgu_get_capacity,line:1908,cap=933, data->normal_temp_cap=933, data->uusoc_vbat=0
+<6>[13090.298397]c6 [T16848] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_capacity_calibration,3232 test..
+<6>[13090.298402]c6 [T16848] sc27xx-fgu sc27xx-fgu: capacity_cali, sc27xx_fgu_get_capacity,line:1913,cap=933, data->normal_temp_cap=933, data->uusoc_vbat=0
+<6>[13091.004222]c5 [T16861] [ASoC:ump9620] dac switch 0x0,shift 5, get 0
+<6>[13091.004467]c5 [T16861] [ASoC:ump9620] dac switch 0x0,shift 4, get 0
+<6>[13091.004595]c5 [T16861] [ASoC: VBC ] dsp_audio_zoom_ratio_get: 4512:dsp_audio_zoom_ratio_get value = 0
+<6>[13091.004601]c5 [T16861] [ASoC: VBC ] dsp_audio_zoom_ratio_get: 4512:dsp_audio_zoom_ratio_get value = 0
+<6>[13091.004634]c5 [T16861] [ASoC: VBC ] dsp_audio_zoom_st_get: 4482:dsp_audio_zoom_st_get value = 0
+<6>[13091.004652]c5 [T16861] [ASoC:ump9620] chip_id 0x7520a002, ver_id 0xa002, hw_index 8
+<6>[13091.004778]c5 [T16861] [ASoC:ump9620] sprd_codec_get_ana_chip_id ana_chip_ver_id = a002
+<6>[13091.004783]c5 [T16861] [ASoC:ump9620] sprd_codec_get_ana_chip_id ana_chip_ver_id = a002
+<6>[13091.005121]c5 [T16861] [sprd-aud-agdsp] agdsp_access_enable, ap_access_ena_reg (wake up dsp) val = 0x20
+<6>[13091.005160]c5 [T16861] [sprd-aud-agdsp] agdsp_access_enable, ap_access_ena_reg (wake up done) val = 0x20
+<6>[13091.005200]c5 [T16861] [sprd-aud-agdsp] agdsp_access_enable, ap_access_ena_reg (wake up dsp) val = 0x20
+<6>[13091.005225]c5 [T16861] [sprd-aud-agdsp] agdsp_access_enable, ap_access_ena_reg (wake up done) val = 0x20
+<6>[13091.005347]c5 [T16861] [ASoC:ump9620] dac switch 0x0,shift 1, get 0
+<6>[13091.005368]c5 [T16861] [ASoC:ump9620] dac switch 0x0,shift 0, get 0
+<6>[13091.005565]c5 [T16861] [ASoC:ump9620] dac switch 0x0,shift 3, get 0
+<6>[13091.005612]c5 [T16861] [ASoC:ump9620] dac switch 0x0,shift 2, get 0
+<6>[13091.005816]c5 [T16861] [ASoC:ump9620] ramp read SDM_H 0 ( 0x0)
+<6>[13091.005821]c5 [T16861] [ASoC:ump9620] ramp read SDM_H 0 ( 0x0)
+<6>[13091.005844]c5 [T16861] [ASoC:ump9620] ramp read SDM_L 0 ( 0x0)
+<6>[13091.005848]c5 [T16861] [ASoC:ump9620] ramp read SDM_L 0 ( 0x0)
+<6>[13091.010832]c5 [T16861] [ASoC:BOARD] Mic Jack Switch On
+<6>[13091.017890]c5 [T16863] [ASoC:ump9620] dac switch 0x0,shift 5, get 0
+<6>[13091.017904]c5 [T16863] [ASoC:ump9620] dac switch 0x0,shift 4, get 0
+<6>[13091.018004]c5 [T16863] [ASoC: VBC ] dsp_audio_zoom_ratio_get: 4512:dsp_audio_zoom_ratio_get value = 0
+<6>[13091.018007]c5 [T16863] [ASoC: VBC ] dsp_audio_zoom_ratio_get: 4512:dsp_audio_zoom_ratio_get value = 0
+<6>[13091.018027]c5 [T16863] [ASoC: VBC ] dsp_audio_zoom_st_get: 4482:dsp_audio_zoom_st_get value = 0
+<6>[13091.018041]c5 [T16863] [ASoC:ump9620] chip_id 0x7520a002, ver_id 0xa002, hw_index 8
+<6>[13091.018105]c5 [T16863] [ASoC:ump9620] sprd_codec_get_ana_chip_id ana_chip_ver_id = a002
+<6>[13091.018111]c5 [T16863] [ASoC:ump9620] sprd_codec_get_ana_chip_id ana_chip_ver_id = a002
+<6>[13091.018346]c5 [T16863] [sprd-aud-agdsp] agdsp_access_enable, ap_access_ena_reg (wake up dsp) val = 0x20
+<6>[13091.018377]c5 [T16863] [sprd-aud-agdsp] agdsp_access_enable, ap_access_ena_reg (wake up done) val = 0x20
+<6>[13091.018400]c5 [T16863] [sprd-aud-agdsp] agdsp_access_enable, ap_access_ena_reg (wake up dsp) val = 0x20
+<6>[13091.018424]c5 [T16863] [sprd-aud-agdsp] agdsp_access_enable, ap_access_ena_reg (wake up done) val = 0x20
+<6>[13091.018486]c5 [T16863] [ASoC:ump9620] dac switch 0x0,shift 1, get 0
+<6>[13091.018500]c5 [T16863] [ASoC:ump9620] dac switch 0x0,shift 0, get 0
+<6>[13091.018643]c5 [T16863] [ASoC:ump9620] dac switch 0x0,shift 3, get 0
+<6>[13091.018682]c5 [T16863] [ASoC:ump9620] dac switch 0x0,shift 2, get 0
+<6>[13091.018816]c5 [T16863] [ASoC:ump9620] ramp read SDM_H 0 ( 0x0)
+<6>[13091.018819]c5 [T16863] [ASoC:ump9620] ramp read SDM_H 0 ( 0x0)
+<6>[13091.018831]c5 [T16863] [ASoC:ump9620] ramp read SDM_L 0 ( 0x0)
+<6>[13091.018834]c5 [T16863] [ASoC:ump9620] ramp read SDM_L 0 ( 0x0)
+<6>[13091.026146]c7 [T16866] [ASoC: PCM ] sprd_pcm_open FE_DAI_ID_NORMAL_AP01 Open Captrue
+<6>[13091.026156]c7 [T16866] [sprd-aud-agdsp] agdsp_access_enable, ap_access_ena_reg (wake up dsp) val = 0x20
+<6>[13091.026185]c7 [T16866] [sprd-aud-agdsp] agdsp_access_enable, ap_access_ena_reg (wake up done) val = 0x20
+<6>[13091.026188]c7 [T16866] [Audio:MEM] audio_mem_alloc mem_type=17 addr = 0x56805e00, size=0x200
+<6>[13091.026192]c7 [T16866] [Audio:MEM] audio_mem_alloc mem_type=18 addr = 0x56807e00, size=0x200
+<6>[13091.026195]c7 [T16866] [ASoC: PCM ] rtd->dma_cfg_virt[0] =0xffffffc013d89e00, rtd->dma_cfg_phy[0] =0x56805e00,
+<6>[13091.026197]c7 [T16866] [ASoC: PCM ] rtd->dma_cfg_virt[1]=0xffffffc013d8ae00,rtd->dma_cfg_phy[1]=0x56807e00,
+<6>[13091.026198]c7 [T16866] [ASoC: PCM ] runtime->hw.periods_max*(sizeof(struct sprd_dma_cfg)=4080,
+<6>[13091.026200]c7 [T16866] [ASoC: PCM ] sizeof(struct sprd_dma_cfg) = 120, size_inout=512
+<6>[13091.026202]c7 [T16866] [ASoC: PCM ] sprd_pcm_preallocate_dma_ddr32_buffer alloc size = 0x20000 for data
+<6>[13091.026203]c7 [T16866] [Audio:MEM] audio_mem_alloc mem_type=19 addr = 0x56806000, size=0x1e00
+<6>[13091.026206]c7 [T16866] [ASoC: PCM ] sprd_pcm_preallocate_dma_ddr32_buffer, sprd_pcm_preallocate_dma_buffer buf->area(virt)=0xffffffc013d8b000, buf->addr(phy)=0x56806000, size=7680
+<6>[13091.026678]c7 [T16866] [ASoC: FE.VBC ] fe_hw_params fe dai: FE_DAI_ID_NORMAL_AP01(0) capture
+<6>[13091.026683]c7 [T16866] [ASoC: FE.VBC ] sprd_dma_config rate = 48000, framlen=80
+<6>[13091.026687]c7 [T16866] [ASoC: PCM ] (pcm) sprd_pcm_hw_params, cpudai_id=0
+<6>[13091.026688]c7 [T16866] [ASoC: PCM ] chan=1 totsize=48000 period=12000
+<6>[13091.026691]c7 [T16866] [ASoC: PCM ] desc->src_step=0, dest_step=2
+<6>[13091.026732]c7 [T16866] [ASoC: PCM ] Chan0 DMA ID=3
+<6>[13091.026734]c7 [T16866] [ASoC: PCM ] dma_buff_phys[0] 1451253760
+<6>[13091.026735]c7 [T16866] [ASoC: PCM ] sprd_pcm_hw_params, block 12000
+<6>[13091.026740]c7 [T16866] [ASoC: PCM ] src_dw=2, dst_dw=2 frag=0, burst:160, slave_id=3, step=0, ll_cfg_virt_addr=000000008ae53ec9, ll_cfg_phy_addr=1451253248 ,dst_addr:1451253760, src_addr:1448149000,chan=0
+<6>[13091.026743]c7 [T16866] [ASoC: PCM ] sg_dma_len=12000, periods=4, sg_dma_address=000000000cd4a2e1, flag:0, chan=0 node=0
+<6>[13091.026744]c7 [T16866] [ASoC: PCM ] sg_dma_len=12000, periods=4, sg_dma_address=000000001915d006, flag:0, chan=0 node=1
+<6>[13091.026745]c7 [T16866] [ASoC: PCM ] sg_dma_len=12000, periods=4, sg_dma_address=00000000a5348175, flag:0, chan=0 node=2
+<6>[13091.026747]c7 [T16866] [ASoC: PCM ] sg_dma_len=12000, periods=4, sg_dma_address=00000000f4511da4, flag:0, chan=0 node=3
+<6>[13091.026748]c7 [T16866] [ASoC: PCM ] Node Size:4
+<3>[13091.026752]c7 [T16866] [ASoC: PCM ] return 0
+<1>[13091.030973]c7 [T16866] Unable to handle kernel paging request at virtual address ffffffc013d8d000
+<6>[13091.030981]c4 [T16868] [ASoC: PCM ] sprd_pcm_open FE_DAI_ID_MM_P Open Playback
+<1>[13091.039754]c7 [T16866] Mem abort info:
+<1>[13091.039758]c7 [T16866]   ESR = 0x96000047
+<6>[13091.043482]c4 [T16868] [Audio:MEM] audio_mem_alloc mem_type=5 addr = 0xaf723000, size=0xff0
+<1>[13091.047449]c7 [T16866]   EC = 0x25: DABT (current EL), IL = 32 bits
+<1>[13091.047449]c7 [T16866]   SET = 0, FnV = 0
+<1>[13091.047450]c7 [T16866]   EA = 0, S1PTW = 0
+<1>[13091.047450]c7 [T16866] Data abort info:
+<1>[13091.047451]c7 [T16866]   ISV = 0, ISS = 0x00000047
+<1>[13091.047451]c7 [T16866]   CM = 0, WnR = 1
+<1>[13091.047453]c7 [T16866] swapper pgtable: 4k pages, 39-bit VAs, pgdp=0000000081bb9000
+<1>[13091.047454]c7 [T16866] [ffffffc013d8d000] pgd=00000001ffffe003, pud=00000001ffffe003, pmd=00000001eca0b003, pte=0000000000000000
+<6>[13091.053687]c4 [T16868] [Audio:MEM] audio_mem_alloc mem_type=5 addr = 0xaf724000, size=0xff0
+<0>[13091.057662]c7 [T16866] Internal error: Oops: 96000047 [#1] PREEMPT SMP
+<0>[13091.057665]c7 [T16866] sprd-sysdump: dump_die_cb save pregs_die_g ok .
+<6>[13091.061728]c4 [T16868] [ASoC: PCM ] rtd->dma_cfg_virt[0] =0xffffffc01381d000, rtd->dma_cfg_phy[0] =0xaf723000,
+<6>[13091.061728]c4 [T16868] [ASoC: PCM ] rtd->dma_cfg_virt[1]=0xffffffc01381e000,rtd->dma_cfg_phy[1]=0xaf724000,
+<4>[13091.065535]c7 [T16866] Modules linked in: sprd_drm(OE) pwm_sprd(E) sprd_vpu_pd(OE) zte_lcdbl_vsp_vsn(E) unisoc_iommu(E) snd_soc_sprd_vbc_fe(OE) sprd_audcp_dvfs(OE) sprd_audcp_boot(OE) sprd_compr_2stage_dma(OE) audio_pipe(OE) audio_dsp_dump(OE) sprd_dmaengine_pcm(OE) snd_soc_sprd_vbc_v4(OE) snd_soc_sprd_pdm_r2p0(OE) snd_soc_sprd_dai(OE) voice_trigger_irq(OE) audio_sipc(OE) snd_soc_sprd_vaudio(OE) snd_soc_sprd_tdm(OE) snd_soc_sprd_codec_ump9620_power(OE) snd_soc_sprd_codec_ump9620(OE) voice_trigger_node(OE) sprd_platform_pcm_routing(OE) sprd_apipe(OE) snd_soc_unisoc_dp_codec(OE) snd_soc_sprd_dummy_codec(OE) snd_soc_sprd_codec_ump9620_power_dev(OE) snd_soc_sprd_card(OE) saudio(OE) mcdt_hw_r2p0(OE) agdsp_access(OE) audio_mem(OE) sprd_wlan_combo(OE) wcn_bsp(E) pcie_sprd(E) pcie_sprd_misc(E) zram(E) zsmalloc(E) sensorhub(E) ion_cma_heap(CE) ion_ipc_trusty(CE) zte_stats_info(E) smartpa_stat(E) board_state(E) zte_bootreason(E) misc_sprd_uid(E) ledtrig_pattern(E) sprd_dma(E) virt_dma(E)
+<4>[13091.065563]c7 [T16866]  sprd_map(E)
+<6>[13091.070299]c4 [T16868] [ASoC: PCM ] runtime->hw.periods_max*(sizeof(struct sprd_dma_cfg)=4080,
+<4>[13091.074188]c7 [T16866]  apsys_dvfs(E) ax88179_178a(E) asix(E) twofish_generic(E) twofish_common(E) arc4(E) sha1_ce(E) ghash_ce(E) aes_ce_ccm(E) aes_neon_blk(E) mali_kbase(OE) sprd_gpu_cooling(E) sprd_ddr_dvfs(E) sprd_cp_dvfs(E) sc27xx_vibra(E) zte_card_holder_det(E) leds_sc27xx_bltc(E) sprd_cpu_cooling(E) thermal_generic_adc(E) sprd_soc_thm(E) sprd_pmic_wdt(E) sprd_wdf(E) sc27xx_poweroff(E) sprd_thermal_r5p0(E) sprd_thermal(E) sprd_ump96xx_tsensor(E) musb_sprd(E) dwc3_sprd(E) sc27xx_typec(E) sprd_pamu3(E) phy_sprd_dummy(OE) phy_sprd_usb31_qogirn6pro(E) phy_sprd_qogirn6pro(E) sprd_usbm(E) musb_hdrc(E) sprd_bc1p2(E) phy_sprd_commonphy(E) ptn38003a_i2c(E) pinctrl_sprd_qogirn6pro(E) pinctrl_sprd(E) sc27xx_fuel_gauge(E) sprd_charger_manager(E) sqc_bq2560x(E) sqc_charger(E) sqc_netlink(E) charger_policy_service(E) zte_misc(E) zte_power_supply(E) zlog_common_dlkm(E) zlog_exception_dlkm(E) sprd_tcpm(E) sprd_battery_info(E) sc27xx_adc(E) extcon_usb_gpio(E) sblock_bridge(E) sbuf_bridge(E)
+<4>[13091.074220]c7 [T16866]  slog_bridge(E)
+<6>[13091.081807]c4 [T16868] [ASoC: PCM ] sizeof(struct sprd_dma_cfg) = 120, size_inout=4080
+<4>[13091.093312]c7 [T16866]  usb_f_vser(E) sfp_core(E) sipa_usb(E) sipa_eth(E) sipa_dele(OE) sipa_core(E) sipa_sys(E) sprd_modem_loader(E) seth(E) sipx(E) spool(E) spipe(E) sipc_core(E) sprd_sipc_virt_bus(E) unisoc_mailbox(E) sprd_power_manager(E) kfifo_buf(E) sprd_power_stat(E) sprd_pdbg(E) sprd_pmic_syscon(E) dwc3_sprd_core(E) sdhci_sprd(E) mmc_swcq(E) mmc_hsq(E) gpio_pmic_eic_sprd(E) gpio_sprd(E) gpio_eic_sprd(E) sprd_shm(E) trusty_virtio(E) trusty_ipc(E) trusty_irq(E) trusty_log(E) trusty_pm(E) trusty(E) sprd_manufacturer_model(E) sprd_7sreset(E) sprd_cpufreq_public(E) sprd_cpufreq_v2(E) i2c_sprd(E) nvmem_sprd_efuse(E) nvmem_sc27xx_efuse(E) sprd_hwspinlock(E) ufs_sprd_qogirn6pro(E) rpmb(E) sprd_soc_id(E) ump9621_regulator(E) ump9620_regulator(E) rtc_sc27xx(E) sprd_ump96xx_spi(E) spi_sprd_adi(E) ums9620_clk(E) clk_sprd(E) sprd_time_sync_cp(E) sprd_time_sync(E) sprd_systimer(E) sprd_sip_svc(E) sprd_wdt_fiq(E)
+<6>[13091.101630]c4 [T16868] [ASoC: PCM ] sprd_pcm_preallocate_dma_ddr32_buffer alloc size = 0x20000 for data
+<4>[13091.108115]c7 [T16866] CPU: 7 PID: 16866 Comm: arecord Tainted: G S  B   WC OE     5.4.254-gb50db5b6224c #3
+<4>[13091.108116]c7 [T16866] Hardware name: Spreadtrum UMS9620 SoC (DT)
+<4>[13091.108118]c7 [T16866] pstate: 20400005 (nzCv daif +PAN -UAO)
+<4>[13091.108125]c7 [T16866] pc : __memset+0x16c/0x188
+<6>[13091.114603]c4 [T16868] [Audio:MEM] audio_mem_alloc mem_type=5 addr = 0xaf725000, size=0x20000
+<4>[13091.124557]c7 [T16866] lr : snd_pcm_hw_params+0x428/0x54c
+<4>[13091.124559]c7 [T16866] sp : ffffffc0169ebc70
+<6>[13091.134255]c4 [T16868] [ASoC: PCM ] sprd_pcm_preallocate_dma_ddr32_buffer, sprd_pcm_preallocate_dma_buffer buf->area(virt)=0xffffffc01381f000, buf->addr(phy)=0xaf725000, size=131072
+<4>[13091.220526]c7 [T16866] x29: ffffffc0169ebc70 x28: ffffff816e04ac40 
+<4>[13091.220528]c7 [T16866] x27: 0000000000000000 x26: ffffffc0119f8390 
+<4>[13091.220529]c7 [T16866] x25: 0000000000000020 x24: ffffff8174d46800 
+<4>[13091.220530]c7 [T16866] x23: ffffffc0112b13f8 x22: ffffff8174d40000 
+<4>[13091.220530]c7 [T16866] x21: ffffff8172c61c00 x20: ffffff8174d46af8 
+<4>[13091.220531]c7 [T16866] x19: ffffff8174d46b18 x18: ffffffc0147bd038 
+<4>[13091.220532]c7 [T16866] x17: ffffffc011f15a44 x16: 00000000000000c0 
+<4>[13091.220533]c7 [T16866] x15: ffffffc0112803e8 x14: ffffffc011a345f0 
+<4>[13091.220534]c7 [T16866] x13: 00000000003315b4 x12: 0000000026763162 
+<4>[13091.220535]c7 [T16866] x11: ffffff81730e0000 x10: 000000000000c000 
+<6>[13091.224339]c4 [T16868] [ASoC: FE.VBC ] fe_hw_params fe dai: FE_DAI_ID_MM_P(25) playback
+<4>[13091.232553]c7 [T16866] x9 : 0000000000000000 x8 : ffffffc013d8d000 
+<4>[13091.232554]c7 [T16866] x7 : 0000000000000000 x6 : 000000000000003f 
+<4>[13091.232555]c7 [T16866] x5 : 0000000000000040 x4 : 0000000000000000 
+<4>[13091.232556]c7 [T16866] x3 : 0000000000000004 x2 : 0000000000009fc0 
+<4>[13091.232557]c7 [T16866] x1 : 0000000000000000 x0 : ffffffc013d8b000 
+<4>[13091.232560]c7 [T16866] 
+<4>[13091.232560]c7 [T16866] PC: 0xffffffc01008d0ec:
+<4>[13091.232561]c7 [T16866] d0ec  d65f03c0 f100fc5f 54fffb8d f102005f 54fffe2b d53b00e3 3727fde3 52800089
+<6>[13091.318935]c4 [T16868] [MCDT] check_agcp_mcdt_clock: enabled the agcp mcdt clock (eb0=0x30c1040)
+<4>[13091.322639]c7 [T16866] d10c  12000c65 1ac52125 720014a9 54fffd41 eb05005f 54fffd0b d10004a6 cb0803e4
+<4>[13091.322642]c7 [T16866] d12c  ea060084 540001c0 cb040043 f101007f fa45a068 54fffc0b aa0303e2 a9001d07
+<4>[13091.322644]c7 [T16866] d14c  a9011d07 a9021d07 f1010084 a9031d07 91010108 54ffff4a 8b040108 cb050042
+<4>[13091.322648]c7 [T16866] d16c  d50b7428 8b050108 eb050042 54ffffaa ea060042 54fff6e1 d65f03c0 12001c21
+<6>[13091.330519]c4 [T16868] [MCDT] check_agcp_mcdt_clock: enabled the agcp mcdt clock (eb0=0x30c1040)
+<4>[13091.410475]c7 [T16866] d18c  38401402 6b01005f 7a5f1044 54ffffa1 d1000400 6b01005f 9a9f0000 d65f03c0
+<4>[13091.410478]c7 [T16866] d1ac  ca010007 b200c3ea f24008ff 540002e1 f2400807 54000141 f8408402 f8408423
+<6>[13091.419834]c4 [T16868] [MCDT] mcdt_dac_dma_enable 1020 mcdt_dma_ap_channel=2
+<4>[13091.429513]c7 [T16866] d1cc  cb0a0047 b200d848 ca030045 8a2800e4 aa0400a6 b4ffff26 1400003e 927df000
+<4>[13091.429516]c7 [T16866] 
+<4>[13091.429516]c7 [T16866] LR: 0xffffffc010e72fa0:
+<4>[13091.429516]c7 [T16866] 2fa0  54ffff81 f9403b0a f940870b 53037d29 a908a708 d2c00028 f9005b08 f900056a
+<6>[13091.435578]c4 [T16868] [ASoC: PCM ] (pcm) sprd_pcm_hw_params, cpudai_id=25
+<4>[13091.441285]c7 [T16866] 2fc0  f9404308 92f0000a 52800029 a90cff1f cb08014a a90ba309 aa0803e9 d37ff908
+<4>[13091.441288]c7 [T16866] 2fe0  eb0a011f 54ffffa9 f9415f00 f9006f09 b4000180 f9409ea8 f9402908 b5000128
+<6>[13091.445877]c4 [T16868] [ASoC: PCM ] chan=1 totsize=48000 period=12000
+<4>[13091.454353]c7 [T16866] 3000  f9416708 b940a309 2a1f03e1 913ffd0a 9274cd4a 7200013f 9a8a0102 97c867f9
+<4>[13091.454356]c7 [T16866] 3020  aa1503e0 94003da7 f94002a8 3962c508 34000088 910602a0 941074b2 14000003
+<6>[13091.459727]c4 [T16868] [ASoC: PCM ] desc->src_step=4, dest_step=0
+<4>[13091.463959]c7 [T16866] 3040  9105e2a0 941085d7 f940a2a8 f9408108 b9400109 7100213f 54000060 52800029
+<4>[13091.463962]c7 [T16866] 3060  b9000109 f94002a8 3962c508 34000088 910602a0 941074c6 14000003 9105e2a0
+<6>[13091.480078]c4 [T16868] [ASoC: PCM ] Chan1 DMA ID=7
+<4>[13091.486285]c7 [T16866] 3080  94108630 b9406aa8 910102b5 34000068 aa1503e0 97d2656f b9406708 340001a8
+<4>[13091.486289]c7 [T16866] 
+<4>[13091.486289]c7 [T16866] SP: 0xffffffc0169ebbf0:
+<4>[13091.486289]c7 [T16866] bbf0  74d46800 ffffff81 00000020 00000000 119f8390 ffffffc0 00000000 00000000
+<6>[13091.492526]c4 [T16868] [ASoC: PCM ] dma_buff_phys[0] 2943504384
+<4>[13091.498749]c7 [T16866] bc10  6e04ac40 ffffff81 169ebc70 ffffffc0 10e73020 ffffffc0 169ebc70 ffffffc0
+<4>[13091.498752]c7 [T16866] bc30  1008d16c ffffffc0 20400005 00000000 74d46800 ffffff81 112b13f8 ffffffc0
+<6>[13091.504982]c4 [T16868] [ASoC: PCM ] sprd_pcm_hw_params, block 12000
+<4>[13091.511210]c7 [T16866] bc50  ffffffff 0000007f 72c61c00 ffffff81 169ebc70 ffffffc0 1008d16c ffffffc0
+<4>[13091.511213]c7 [T16866] bc70  169ebd60 ffffffc0 10e76084 ffffffc0 00000000 00000000 56000000 00000000
+<6>[13091.517447]c4 [T16868] [ASoC: PCM ] src_dw=4, dst_dw=4 frag=0, burst:640, slave_id=7, step=4, ll_cfg_virt_addr=000000004ab1efc5, ll_cfg_phy_addr=2943496192 ,dst_addr:1448083464, src_addr:2943504384,chan=0
+<4>[13091.523672]c7 [T16866] bc90  63819880 ffffff81 725f1540 ffffff81 74d40000 ffffff81 00000000 00000000
+<4>[13091.523674]c7 [T16866] bcb0  e0228b50 0000007f 72c61c00 ffffff81 00000000 00000000 00000000 00000000
+<6>[13091.529906]c4 [T16868] [ASoC: PCM ] sg_dma_len=12000, periods=4, sg_dma_address=000000001c66793b, flag:0, chan=0 node=0
+<4>[13091.536133]c7 [T16866] bcd0  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+<4>[13091.536139]c7 [T16866] 
+<4>[13091.536139]c7 [T16866] X14: 0xffffffc011a34570:
+<6>[13091.542366]c4 [T16868] [ASoC: PCM ] sg_dma_len=12000, periods=4, sg_dma_address=00000000c27e774f, flag:0, chan=0 node=1
+<4>[13091.550326]c7 [T16866] 4570  000000fc 000001e0 00000204 00000510 00000010 00000010 00000010 0000021c
+<4>[13091.550329]c7 [T16866] 4590  00000120 00000244 00000148 00000170 00000194 000001bc 00000010 00000014
+<6>[13091.556560]c4 [T16868] [ASoC: PCM ] sg_dma_len=12000, periods=4, sg_dma_address=00000000e7d9def3, flag:0, chan=0 node=2
+<4>[13091.562787]c7 [T16866] 45b0  0000002c 0000002c 0000001c 0000002c 0000002c 0000002c 0000002c 0000002c
+<4>[13091.562789]c7 [T16866] 45d0  0000002c 0000002c 00000024 0000002c ffffffe4 0000002c 0000002c ffffffe0
+<4>[13091.562792]c7 [T16866] 45f0  00000050 00000068 00000068 00000068 00000068 00000068 00000068 00000068
+<6>[13091.569021]c4 [T16868] [ASoC: PCM ] sg_dma_len=12000, periods=4, sg_dma_address=00000000510d5753, flag:0, chan=0 node=3
+<4>[13091.575248]c7 [T16866] 4610  00000068 00000068 00000068 00000068 00000068 00000068 00000068 00000068
+<4>[13091.575250]c7 [T16866] 4630  00000068 00000068 00000068 00000068 00000068 00000068 00000068 00000068
+<6>[13091.581482]c4 [T16868] [ASoC: PCM ] Node Size:4
+<4>[13091.588316]c7 [T16866] 4650  00000068 00000068 00000068 00000068 00000068 00000068 00000068 00000068
+<4>[13091.588319]c7 [T16866] 
+<4>[13091.588319]c7 [T16866] X15: 0xffffffc011280368:
+<4>[13091.588320]c7 [T16866] 0368  53185c0a 92609d08 aa0a0108 17ffff7a 92801fea f2c15fea 8a0a0129 91000508
+<3>[13091.597409]c4 [T16868] [ASoC: PCM ] return 0
+<4>[13091.606143]c7 [T16866] 0388  b27f0529 14000044 900056ea 3940054b 36000b4b 9278dd29 b2400929 f9000289
+<4>[13091.606146]c7 [T16866] 03a8  1400003f 92801fea f2c15fea 8a0a0129 91000508 b2400529 14000037 b2550189
+<3>[13091.615258]c4 [T16868]  FE_MM_P: ASoC: no backend DAIs enabled for FE_MM_P
+<4>[13091.624316]c7 [T16866] 03c8  14000015 92801fea f2c15fea 528000ab 8a0a0129 91000508 aa0b0129 1400002e
+<4>[13091.624318]c7 [T16866] 03e8  92801fea f2c15fea 8a0a0129 91000508 b27e0129 14000028 92debfec 92601d4a
+<4>[13091.624321]c7 [T16866] 0408  8a0c0129 aa090149 b25b0129 9250dd29 b2540129 5101216a 7100c95f 54000148
+<6>[13091.633451]c4 [T16868] [ASoC: PCM ] sprd_pcm_hw_free, FE_DAI_ID_MM_P cpu_dai->id = 25 Playback
+<4>[13091.642488]c7 [T16866] 0428  90003dab 911d016b 1000000c b8aa796d 8b0d018c d61f0180 d360812a 91002d4a
+<4>[13091.642491]c7 [T16866] 0448  1400000c d360812a 91003d4a 14000009 9278dd2a 52800109 1400000d d360812a
+<4>[13091.642495]c7 [T16866] 
+<4>[13091.642495]c7 [T16866] X17: 0xffffffc011f159c4:
+<6>[13091.651237]c4 [T16868] [ASoC: PCM ] sprd_pcm_hw_free release id=1
+<4>[13091.660314]c7 [T16866] 59c4  00000000 00000000 00000000 00000000 00000000 00000000 00000000 6e778880
+<4>[13091.660317]c7 [T16866] 59e4  ffffff81 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+<4>[13091.660320]c7 [T16866] 5a04  00000000 77c4c9c0 ffffff81 6fda3450 ffffff81 77c06a90 ffffff81 00000002
+<6>[13091.669414]c4 [T16868] [ASoC: FE.VBC ] fe_hw_free fe dai: FE_DAI_ID_MM_P(25) playback
+<4>[13091.676413]c7 [T16866] 5a24  00000000 11e07540 ffffffc0 00000001 00000000 00000000 eea8e569 00000bdd
+<4>[13091.676415]c7 [T16866] 5a44  00290044 c2000000 00006932 00000002 64727073 616c772d 63203a6e 695f7874
+<4>[13091.676419]c7 [T16866] 5a64  20312064 76636572 70737220 444d435b 5f58545f 41544144 0000005d f27b9e63
+<6>[13091.685519]c4 [T16868] [ASoC: PCM ] sprd_pcm_close FE_DAI_ID_MM_P Close Playback
+<4>[13091.692336]c7 [T16866] 5a84  00000bdd 003d0058 62000000 0000050c 00000007 64727073 7464775f 7169665f
+<4>[13091.692338]c7 [T16866] 5aa4  7073203a 77206472 6c207464 2064616f 756c6176 69742065 756f656d 343d2074
+<4>[13091.692343]c7 [T16866] 
+<4>[13091.692343]c7 [T16866] X18: 0xffffffc0147bcfb8:
+<6>[13091.734443]c1 [T10440] charger-manager charger-manager: capacity orig: 961, new: 97
+<4>[13091.741918]c7 [T16866] cfb8  ******** ******** ******** ******** ******** ******** ******** ********
+<4>[13091.741923]c7 [T16866] cfd8  ******** ******** ******** ******** ******** ******** ******** ********
+<4>[13091.741927]c7 [T16866] cff8  ******** ******** 10084708 ffffffc0 102405c0 ffffffc0 10240690 ffffffc0
+<4>[13091.741929]c7 [T16866] d018  104f9990 ffffffc0 104f8e08 ffffffc0 10e73eb4 ffffffc0 10e76084 ffffffc0
+<4>[13091.741932]c7 [T16866] d038  10083444 ffffffc0 10081478 ffffffc0 112969dc ffffffc0 1024cb10 ffffffc0
+<4>[13091.741934]c7 [T16866] d058  1024cd68 ffffffc0 1024cde8 ffffffc0 10235e88 ffffffc0 1022d788 ffffffc0
+<4>[13091.741937]c7 [T16866] d078  1022d878 ffffffc0 1022e5c4 ffffffc0 1043c868 ffffffc0 103169f4 ffffffc0
+<4>[13091.741939]c7 [T16866] d098  10313d18 ffffffc0 1031346c ffffffc0 10313278 ffffffc0 11280f24 ffffffc0
+<4>[13091.741942]c7 [T16866] 
+<4>[13091.741942]c7 [T16866] X23: 0xffffffc0112b1378:
+<4>[13091.741943]c7 [T16866] 1378  17b9a685 17df806a 17eab2ce 17da738f 17e7be20 17e7914e 17e7b2a5 17ef3064
+<4>[13091.741945]c7 [T16866] 1398  17d9d156 17d9d165 17f0044e 17e0b92e 17e0be62 17b9734b 17dfcc72 17cf90a0
+<4>[13091.741948]c7 [T16866] 13b8  17cfb9c2 17cf90db 17cdbf96 17cdbf57 17cdc272 17f55795 17f556a2 17f55767
+<6>[13091.751501]c1 [T10440] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_get_capacity,line:1860,cap=933, data->normal_temp_cap=933
+<4>[13091.757063]c7 [T16866] 13d8  17f5c65d 17f556a1 17f2d847 17f5573b 17e8ea54 17e8ea08 17c77300 17fecb0c
+<4>[13091.757065]c7 [T16866] 13f8  17f04a99 17eefd4c 17f06f1a 17f04374 17e7bd5a 17efbf5d 17f46d4f 17f46d20
+<4>[13091.757068]c7 [T16866] 1418  17ddc035 17ddfa4b 17c012ab 17c012e8 17d9c172 17f38eaa 17d1cd39 17f3e900
+<4>[13091.757070]c7 [T16866] 1438  17f2e9e4 17d95d4f 17d160c3 17f390b3 17f21cc9 17f8ebc6 17f84233 17f67a6a
+<4>[13091.757073]c7 [T16866] 1458  17f7ef0c 17f3f53d 17f8e996 17f43ed8 17ff26d7 17effa9b 17d89b1d 17ea3920
+<4>[13091.757076]c7 [T16866] 
+<4>[13091.757076]c7 [T16866] X26: 0xffffffc0119f8310:
+<4>[13091.757076]c7 [T16866] 8310  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+<4>[13091.757078]c7 [T16866] 8330  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+<4>[13091.757081]c7 [T16866] 8350  112bb9ec ffffffc0 112bba04 ffffffc0 00000000 00000000 112c39a8 ffffffc0
+<4>[13091.757083]c7 [T16866] 8370  112bba20 ffffffc0 112bb9e4 ffffffc0 112c39c8 ffffffc0 112c39ac ffffffc0
+<4>[13091.757086]c7 [T16866] 8390  00000000 00000001 00000002 0000000a 0000000b 0000000c 00000011 00000013
+<4>[13091.757088]c7 [T16866] 83b0  ffffffff 00000000 112bba14 ffffffc0 112bba1c ffffffc0 00000000 00000000
+<4>[13091.757090]c7 [T16866] 83d0  112c39b8 ffffffc0 112bb9dc ffffffc0 112bba0c ffffffc0 00000000 00000000
+<4>[13091.757093]c7 [T16866] 83f0  112c39c4 ffffffc0 112bba00 ffffffc0 112bba30 ffffffc0 00000000 00000000
+<4>[13091.757096]c7 [T16866] 
+<4>[13091.757096]c7 [T16866] X29: 0xffffffc0169ebbf0:
+<4>[13091.757096]c7 [T16866] bbf0  74d46800 ffffff81 00000020 00000000 119f8390 ffffffc0 00000000 00000000
+<4>[13091.757098]c7 [T16866] bc10  6e04ac40 ffffff81 169ebc70 ffffffc0 10e73020 ffffffc0 169ebc70 ffffffc0
+<4>[13091.757101]c7 [T16866] bc30  1008d16c ffffffc0 20400005 00000000 74d46800 ffffff81 112b13f8 ffffffc0
+<4>[13091.757103]c7 [T16866] bc50  ffffffff 0000007f 72c61c00 ffffff81 169ebc70 ffffffc0 1008d16c ffffffc0
+<4>[13091.757106]c7 [T16866] bc70  169ebd60 ffffffc0 10e76084 ffffffc0 00000000 00000000 56000000 00000000
+<4>[13091.757108]c7 [T16866] bc90  63819880 ffffff81 725f1540 ffffff81 74d40000 ffffff81 00000000 00000000
+<4>[13091.757110]c7 [T16866] bcb0  e0228b50 0000007f 72c61c00 ffffff81 00000000 00000000 00000000 00000000
+<4>[13091.757113]c7 [T16866] bcd0  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+<4>[13091.757116]c7 [T16866] 
+<4>[13091.757116]c7 [T16866] Call trace:
+<4>[13091.757118]c7 [T16866]  __memset+0x16c/0x188
+<4>[13091.757121]c7 [T16866]  snd_pcm_common_ioctl+0x330/0xe3c
+<4>[13091.757123]c7 [T16866]  snd_pcm_ioctl+0x30/0x48
+<4>[13091.757126]c7 [T16866]  do_vfs_ioctl+0x3f8/0x6a8
+<4>[13091.757127]c7 [T16866]  __arm64_sys_ioctl+0x74/0xa0
+<4>[13091.757141]c7 [T16866]  el0_svc_common+0xc4/0x1ac
+<6>[13091.766342]c1 [T10440] sc27xx-fgu sc27xx-fgu: sc27xx_fgu_capacity_loss_by_temperature temp_cap=1000,cap=933
+<4>[13091.775241]c7 [T16866]  el0_svc_handler+0x1c/0x28
+<4>[13091.775242]c7 [T16866]  el0_svc+0x8/0x100
+<0>[13091.775245]c7 [T16866] Code: 91010108 54ffff4a 8b040108 cb050042 (d50b7428) 
+<4>[13091.775246]c7 [T16866] ---[ end trace 3dfcabc114f40160 ]---

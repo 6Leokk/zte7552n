@@ -1,0 +1,339 @@
+failed(-517)!
+[  201.588919]c5 [  T279] [ASoC:BOARD] ERR: vbc_rxpx_codec_sc27xx_probe, asoc_sprd_card_probe failed!
+[  201.599267]c7 [  T544] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of get dai name for 'cpu' failed!(-517)
+[  201.608733]c7 [  T544] vbc-rxpx-codec-sc27xx sound@0: asoc_sprd_card_parse_of: Parsing dai link 0 failed(-517)!
+[  201.608735]c7 [  T544] [ASoC:BOARD] ERR: vbc_rxpx_codec_sc27xx_probe, asoc_sprd_card_probe failed!
+[  201.628088]c2 [  T203] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of get dai name for 'cpu' failed!(-517)
+[  201.637574]c2 [  T203] vbc-rxpx-codec-sc27xx sound@0: asoc_sprd_card_parse_of: Parsing dai link 0 failed(-517)!
+[  201.647621]c2 [  T203] [ASoC:BOARD] ERR: vbc_rxpx_codec_sc27xx_probe, asoc_sprd_card_probe failed!
+[  201.669191]c5 [ T6479] [Audio:SBLCK] audio_sblock_create smem_addr is 0xaf700000
+[  201.676520]c5 [ T6479] [Audio:SBLCK] summer: audio_sblock_create head size is 96
+[  201.683860]c7 [ T6479] [Audio:SBLCK] summer audio_sblock_create:p_rxblks[0].addr 0xaf700060, 0xffffffc013c500a0
+[  201.693917]c7 [ T6479] [Audio:SBLCK] summer audio_sblock_create:p_rxblks[1].addr 0xaf702060, 0xffffffc013c500a8
+[  201.703915]c7 [ T6479] [Audio:SBLCK] summer audio_sblock_create:p_rxblks[2].addr 0xaf704060, 0xffffffc013c500b0
+[  201.713949]c7 [ T6479] [Audio:SBLCK] summer audio_sblock_create:p_rxblks[3].addr 0xaf706060, 0xffffffc013c500b8
+[  201.723992]c7 [ T6479] [Audio:SBLCK] summer audio_sblock_create:p_rxblks[4].addr 0xaf708060, 0xffffffc013c500c0
+[  201.734027]c7 [ T6479] [Audio:SBLCK] summer audio_sblock_create:p_rxblks[5].addr 0xaf70a060, 0xffffffc013c500c8
+[  201.744068]c7 [ T6479] [Audio:SBLCK] summer audio_sblock_create:p_rxblks[6].addr 0xaf70c060, 0xffffffc013c500d0
+[  201.754104]c7 [ T6479] [Audio:SBLCK] summer audio_sblock_create:p_rxblks[7].addr 0xaf70e060, 0xffffffc013c500d8
+[  201.764148]c7 [ T6479] [Audio:SBLCK] summer : poolhd->rxblk_wrptr 8
+[  201.771205]c7 [  T544] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of get dai name for 'cpu' failed!(-517)
+[  201.780685]c7 [  T544] vbc-rxpx-codec-sc27xx sound@0: asoc_sprd_card_parse_of: Parsing dai link 0 failed(-517)!
+[  201.790696]c7 [  T544] [ASoC:BOARD] ERR: vbc_rxpx_codec_sc27xx_probe, asoc_sprd_card_probe failed!
+[  201.799690]c3 [ T6479] [Audio:SBLCK] audio_sblock_create smem_addr is 0xaf711000
+[  201.807823]c7 [ T6479] [Audio:SBLCK] summer: audio_sblock_create head size is 96
+[  201.815121]c7 [ T6479] [Audio:SBLCK] summer audio_sblock_create:p_rxblks[0].addr 0xaf711060, 0xffffffc0138ed0a0
+[  201.825152]c7 [ T6479] [Audio:SBLCK] summer audio_sblock_create:p_rxblks[1].addr 0xaf713060, 0xffffffc0138ed0a8
+[  201.835188]c7 [ T6479] [Audio:SBLCK] summer audio_sblock_create:p_rxblks[2].addr 0xaf715060, 0xffffffc0138ed0b0
+[  201.845227]c7 [ T6479] [Audio:SBLCK] summer audio_sblock_create:p_rxblks[3].addr 0xaf717060, 0xffffffc0138ed0b8
+[  201.855265]c7 [ T6479] [Audio:SBLCK] summer audio_sblock_create:p_rxblks[4].addr 0xaf719060, 0xffffffc0138ed0c0
+[  201.865309]c7 [ T6479] [Audio:SBLCK] summer audio_sblock_create:p_rxblks[5].addr 0xaf71b060, 0xffffffc0138ed0c8
+[  201.875341]c7 [ T6479] [Audio:SBLCK] summer audio_sblock_create:p_rxblks[6].addr 0xaf71d060, 0xffffffc0138ed0d0
+[  201.885384]c7 [ T6479] [Audio:SBLCK] summer audio_sblock_create:p_rxblks[7].addr 0xaf71f060, 0xffffffc0138ed0d8
+[  201.895421]c7 [ T6479] [Audio:SBLCK] summer : poolhd->rxblk_wrptr 8
+[  201.902469]c7 [  T544] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of get dai name for 'cpu' failed!(-517)
+[  201.911942]c7 [  T544] vbc-rxpx-codec-sc27xx sound@0: asoc_sprd_card_parse_of: Parsing dai link 0 failed(-517)!
+[  201.921959]c7 [  T544] [ASoC:BOARD] ERR: vbc_rxpx_codec_sc27xx_probe, asoc_sprd_card_probe failed!
+[  201.932278]c7 [  T544] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of get dai name for 'cpu' failed!(-517)
+[  201.941747]c7 [  T544] vbc-rxpx-codec-sc27xx sound@0: asoc_sprd_card_parse_of: Parsing dai link 0 failed(-517)!
+[  201.951778]c7 [  T544] [ASoC:BOARD] ERR: vbc_rxpx_codec_sc27xx_probe, asoc_sprd_card_probe failed!
+[  201.960811]c7 [  T544] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of get dai name for 'cpu' failed!(-517)
+[  201.970263]c7 [  T544] vbc-rxpx-codec-sc27xx sound@0: asoc_sprd_card_parse_of: Parsing dai link 0 failed(-517)!
+[  201.970265]c7 [  T544] [ASoC:BOARD] ERR: vbc_rxpx_codec_sc27xx_probe, asoc_sprd_card_probe failed!
+[  201.997837]c5 [  T279] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of get dai name for 'cpu' failed!(-517)
+[  202.007302]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: asoc_sprd_card_parse_of: Parsing dai link 0 failed(-517)!
+[  202.017347]c5 [  T279] [ASoC:BOARD] ERR: vbc_rxpx_codec_sc27xx_probe, asoc_sprd_card_probe failed!
+[  202.026498]c7 [  T544] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of get dai name for 'cpu' failed!(-517)
+[  202.035955]c7 [  T544] vbc-rxpx-codec-sc27xx sound@0: asoc_sprd_card_parse_of: Parsing dai link 0 failed(-517)!
+[  202.035956]c7 [  T544] [ASoC:BOARD] ERR: vbc_rxpx_codec_sc27xx_probe, asoc_sprd_card_probe failed!
+[  202.056130]c7 [  T544] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of get dai name for 'cpu' failed!(-517)
+[  202.065586]c7 [  T544] vbc-rxpx-codec-sc27xx sound@0: asoc_sprd_card_parse_of: Parsing dai link 0 failed(-517)!
+[  202.065587]c7 [  T544] [ASoC:BOARD] ERR: vbc_rxpx_codec_sc27xx_probe, asoc_sprd_card_probe failed!
+[  202.084598]c7 [  T544] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of get dai name for 'cpu' failed!(-517)
+[  202.094054]c7 [  T544] vbc-rxpx-codec-sc27xx sound@0: asoc_sprd_card_parse_of: Parsing dai link 0 failed(-517)!
+[  202.094056]c7 [  T544] [ASoC:BOARD] ERR: vbc_rxpx_codec_sc27xx_probe, asoc_sprd_card_probe failed!
+[  202.113061]c7 [  T544] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of get dai name for 'cpu' failed!(-517)
+[  202.122525]c7 [  T544] vbc-rxpx-codec-sc27xx sound@0: asoc_sprd_card_parse_of: Parsing dai link 0 failed(-517)!
+[  202.122526]c7 [  T544] [ASoC:BOARD] ERR: vbc_rxpx_codec_sc27xx_probe, asoc_sprd_card_probe failed!
+[  202.141529]c7 [  T544] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of get dai name for 'cpu' failed!(-517)
+[  202.150998]c7 [  T544] vbc-rxpx-codec-sc27xx sound@0: asoc_sprd_card_parse_of: Parsing dai link 0 failed(-517)!
+[  202.161034]c7 [  T544] [ASoC:BOARD] ERR: vbc_rxpx_codec_sc27xx_probe, asoc_sprd_card_probe failed!
+[  202.171444]c2 [  T203] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of get dai name for 'cpu' failed!(-517)
+[  202.180913]c2 [  T203] vbc-rxpx-codec-sc27xx sound@0: asoc_sprd_card_parse_of: Parsing dai link 0 failed(-517)!
+[  202.180915]c2 [  T203] [ASoC:BOARD] ERR: vbc_rxpx_codec_sc27xx_probe, asoc_sprd_card_probe failed!
+[  202.218696]c6 [   T54] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of get dai name for 'cpu' failed!(-517)
+[  202.228172]c6 [   T54] vbc-rxpx-codec-sc27xx sound@0: asoc_sprd_card_parse_of: Parsing dai link 0 failed(-517)!
+[  202.238207]c6 [   T54] [ASoC:BOARD] ERR: vbc_rxpx_codec_sc27xx_probe, asoc_sprd_card_probe failed!
+[  202.251844]c7 [  T544] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of get dai name for 'cpu' failed!(-517)
+[  202.261322]c7 [  T544] vbc-rxpx-codec-sc27xx sound@0: asoc_sprd_card_parse_of: Parsing dai link 0 failed(-517)!
+[  202.271336]c7 [  T544] [ASoC:BOARD] ERR: vbc_rxpx_codec_sc27xx_probe, asoc_sprd_card_probe failed!
+[  202.296278]c5 [  T279] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of parse phandle 'codec' failed!(-2)
+[  202.305491]c5 [  T279] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of parse phandle 'codec' failed!(-2)
+[  202.314749]c5 [  T279] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of parse phandle 'codec' failed!(-2)
+[  202.323998]c5 [  T279] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of parse phandle 'codec' failed!(-2)
+[  202.333256]c5 [  T279] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of parse phandle 'codec' failed!(-2)
+[  202.342515]c5 [  T279] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of parse phandle 'codec' failed!(-2)
+[  202.351780]c5 [  T279] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of parse phandle 'codec' failed!(-2)
+[  202.361039]c5 [  T279] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of parse phandle 'codec' failed!(-2)
+[  202.370292]c5 [  T279] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of parse phandle 'codec' failed!(-2)
+[  202.379550]c5 [  T279] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of parse phandle 'codec' failed!(-2)
+[  202.388821]c5 [  T279] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of parse phandle 'codec' failed!(-2)
+[  202.398078]c5 [  T279] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of parse phandle 'codec' failed!(-2)
+[  202.407335]c5 [  T279] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of parse phandle 'codec' failed!(-2)
+[  202.416597]c5 [  T279] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of parse phandle 'codec' failed!(-2)
+[  202.425919]c5 [  T279] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of parse phandle 'codec' failed!(-2)
+[  202.425925]c4 [ T6713] Unable to handle kernel NULL pointer dereference at virtual address 0000000000000018
+[  202.444808]c5 [  T279] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of parse phandle 'codec' failed!(-2)
+[  202.445553]c7 [ T6713] Mem abort info:
+[  202.454068]c5 [  T279] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of parse phandle 'codec' failed!(-2)
+[  202.457782]c7 [ T6713]   ESR = 0x96000006
+[  202.457783]c7 [ T6713]   EC = 0x25: DABT (current EL), IL = 32 bits
+[  202.467047]c5 [  T279] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of parse phandle 'codec' failed!(-2)
+[  202.471020]c7 [ T6713]   SET = 0, FnV = 0
+[  202.471021]c7 [ T6713]   EA = 0, S1PTW = 0
+[  202.471021]c7 [ T6713] Data abort info:
+[  202.471023]c7 [ T6713]   ISV = 0, ISS = 0x00000006
+[  202.477249]c5 [  T279] [ASoC:BOARD] asoc_sprd_card_dai_link_of: parse for codec failed. Go to use a dummy codec.
+[  202.477251]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	name : FE_BTCAP_AP
+[  202.477253]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	stream_name : FE_ST_BTCAP_AP
+[  202.486511]c7 [ T6713]   CM = 0, WnR = 0
+[  202.486512]c7 [ T6713] user pgtable: 4k pages, 39-bit VAs, pgdp=00000001f17b3000
+[  202.486513]c7 [ T6713] [0000000000000018] pgd=00000001ef246003, pud=00000001ef246003, pmd=0000000000000000
+[  202.486517]c7 [ T6713] Internal error: Oops: 96000006 [#1] PREEMPT SMP
+[  202.490515]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	name : BE_NORMAL_AP01_CODEC
+[  202.494558]c7 [ T6713] sprd-sysdump: dump_die_cb save pregs_die_g ok .
+[  202.494559]c7 [ T6713] Modules linked in: snd_soc_sprd_vbc_fe(OE) sprd_audcp_dvfs(OE) sprd_audcp_boot(OE) sprd_compr_2stage_dma(OE) audio_pipe(OE) audio_dsp_dump(OE) sprd_dmaengine_pcm(OE) snd_soc_sprd_vbc_v4(OE) snd_soc_sprd_pdm_r2p0(OE) snd_soc_sprd_dai(OE) voice_trigger_irq(OE) audio_sipc(OE) snd_soc_sprd_vaudio(OE) snd_soc_sprd_tdm(OE) snd_soc_sprd_codec_ump9620_power(OE) snd_soc_sprd_codec_ump9620(OE) voice_trigger_node(OE) sprd_platform_pcm_routing(OE) sprd_apipe(OE) snd_soc_unisoc_dp_codec(OE) snd_soc_sprd_dummy_codec(OE) snd_soc_sprd_codec_ump9620_power_dev(OE) snd_soc_sprd_card(OE) saudio(OE) mcdt_hw_r2p0(OE) agdsp_access(OE) audio_mem(OE) sprd_wlan_combo(OE) wcn_bsp(E) pcie_sprd(E) pcie_sprd_misc(E) zram(E) zsmalloc(E) sensorhub(E) ion_cma_heap(CE) ion_ipc_trusty(CE) zte_stats_info(E) smartpa_stat(E) board_state(E) zte_bootreason(E) misc_sprd_uid(E) ledtrig_pattern(E) sprd_dma(E) virt_dma(E) sprd_map(E) apsys_dvfs(E) ax88179_178a(E) asix(E) twofish_generic(E)
+[  202.494587]c7 [ T6713]  twofish_common(E)
+[  202.498366]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	stream_name : BE_ST_NORMAL_AP01_CODEC
+[  202.503123]c7 [ T6713]  arc4(E) sha1_ce(E) ghash_ce(E) aes_ce_ccm(E) aes_neon_blk(E) mali_kbase(OE) sprd_gpu_cooling(E) sprd_ddr_dvfs(E) sprd_cp_dvfs(E) sc27xx_vibra(E) zte_card_holder_det(E) leds_sc27xx_bltc(E) sprd_cpu_cooling(E) thermal_generic_adc(E) sprd_soc_thm(E) sprd_pmic_wdt(E) sprd_wdf(E) sc27xx_poweroff(E) sprd_thermal_r5p0(E) sprd_thermal(E) sprd_ump96xx_tsensor(E) musb_sprd(E) dwc3_sprd(E) sc27xx_typec(E) sprd_pamu3(E) phy_sprd_dummy(OE) phy_sprd_usb31_qogirn6pro(E) phy_sprd_qogirn6pro(E) sprd_usbm(E) musb_hdrc(E) sprd_bc1p2(E) phy_sprd_commonphy(E) ptn38003a_i2c(E) pinctrl_sprd_qogirn6pro(E) pinctrl_sprd(E) sc27xx_fuel_gauge(E) sprd_charger_manager(E) sqc_bq2560x(E) sqc_charger(E) sqc_netlink(E) charger_policy_service(E) zte_misc(E) zte_power_supply(E) zlog_common_dlkm(E) zlog_exception_dlkm(E) sprd_tcpm(E) sprd_battery_info(E) sc27xx_adc(E) extcon_usb_gpio(E) sblock_bridge(E) sbuf_bridge(E) slog_bridge(E) usb_f_vser(E) sfp_core(E) sipa_usb(E) sipa_eth(E) sipa_dele(OE)
+[  202.503153]c7 [ T6713]  sipa_core(E)
+[  202.513260]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	name : BE_NORMAL_AP23_CODEC
+[  202.519999]c7 [ T6713]  sipa_sys(E) sprd_modem_loader(E) seth(E) sipx(E) spool(E) spipe(E) sipc_core(E) sprd_sipc_virt_bus(E) unisoc_mailbox(E) sprd_power_manager(E) kfifo_buf(E) sprd_power_stat(E) sprd_pdbg(E) sprd_pmic_syscon(E) dwc3_sprd_core(E) sdhci_sprd(E) mmc_swcq(E) mmc_hsq(E) gpio_pmic_eic_sprd(E) gpio_sprd(E) gpio_eic_sprd(E) sprd_shm(E) trusty_virtio(E) trusty_ipc(E) trusty_irq(E) trusty_log(E) trusty_pm(E) trusty(E) sprd_manufacturer_model(E) sprd_7sreset(E) sprd_cpufreq_public(E) sprd_cpufreq_v2(E) i2c_sprd(E) nvmem_sprd_efuse(E) nvmem_sc27xx_efuse(E) sprd_hwspinlock(E) ufs_sprd_qogirn6pro(E) rpmb(E) sprd_soc_id(E) ump9621_regulator(E) ump9620_regulator(E) rtc_sc27xx(E) sprd_ump96xx_spi(E) spi_sprd_adi(E) ums9620_clk(E) clk_sprd(E) sprd_time_sync_cp(E) sprd_time_sync(E) sprd_systimer(E) sprd_sip_svc(E) sprd_wdt_fiq(E)
+[  202.527616]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	stream_name : BE_ST_NORMAL_AP23_CODEC
+[  202.531508]c7 [ T6713] CPU: 7 PID: 6713 Comm: dd Tainted: G S      WC OE     5.4.254-gb50db5b6224c #3
+[  202.531509]c7 [ T6713] Hardware name: Spreadtrum UMS9620 SoC (DT)
+[  202.531510]c7 [ T6713] pstate: 60400005 (nZCv daif +PAN -UAO)
+[  202.531537]c7 [ T6713] pc : vbc_turning_ndp_read+0x120/0x560 [snd_soc_sprd_vbc_v4]
+[  202.531557]c7 [ T6713] lr : vbc_turning_ndp_read+0xe4/0x560 [snd_soc_sprd_vbc_v4]
+[  202.538898]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	name : BE_CAPTURE_DSP_CODEC
+[  202.548470]c7 [ T6713] sp : ffffffc0147dbcc0
+[  202.548470]c7 [ T6713] x29: ffffffc0147dbcc0 x28: ffffff817175d880 
+[  202.548472]c7 [ T6713] x27: 0000000000000000 x26: 0000000000000000 
+[  202.548473]c7 [ T6713] x25: 0000000056000000 x24: 0000000000000000 
+[  202.548474]c7 [ T6713] x23: ffffffc009da4000 x22: 0000000000000000 
+[  202.554958]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	stream_name : BE_ST_CAPTURE_DSP_CODEC
+[  202.562487]c7 [ T6713] x21: 0000007f9e4f4000 x20: 0000000000040000 
+[  202.562488]c7 [ T6713] x19: ffffffc0149f5000 x18: ffffffc0145ea040 
+[  202.562489]c7 [ T6713] x17: ffffffc011f15a44 x16: 0000000000000000 
+[  202.562490]c7 [ T6713] x15: ffffffc011e6b680 x14: 000000000000000c 
+[  202.562492]c7 [ T6713] x13: 0000000000000008 x12: 0000004008000000 
+[  202.568990]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	name : BE_FAST_CODEC
+[  202.654478]c7 [ T6713] x11: 0000000040000000 x10: ffffffc014a34fff 
+[  202.654479]c7 [ T6713] x9 : fffffffffff80000 x8 : 0000000000000000 
+[  202.654480]c7 [ T6713] x7 : 0000000000000000 x6 : 000000000000003f 
+[  202.654481]c7 [ T6713] x5 : 00000000000e2b3a x4 : 0000000000000000 
+[  202.654482]c7 [ T6713] x3 : ffffff816db3d000 x2 : 0068000000000713 
+[  202.658461]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	stream_name : BE_ST_FAST_CODEC
+[  202.666854]c7 [ T6713] x1 : ffffffc014a35000 x0 : ffffffc0149f5000 
+[  202.666860]c7 [ T6713] 
+[  202.666860]c7 [ T6713] SP: 0xffffffc0147dbc40:
+[  202.753580]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	name : BE_OFFLOAD_CODEC
+[  202.757114]c7 [ T6713] bc40  00000000 00000000 56000000 00000000 00000000 00000000 00000000 00000000
+[  202.757117]c7 [ T6713] bc60  7175d880 ffffff81 147dbcc0 ffffffc0 09d8c278 ffffffc0 147dbcc0 ffffffc0
+[  202.764643]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	stream_name : BE_ST_OFFLOAD_CODEC
+[  202.837939]c7 [ T6713] bc80  09d8c2b4 ffffffc0 60400005 00000000 00000000 00000000 9e4f4000 0000007f
+[  202.837942]c7 [ T6713] bca0  ffffffff 0000007f 147dbe10 ffffffc0 147dbcc0 ffffffc0 09d8c2b4 ffffffc0
+[  202.837944]c7 [ T6713] bcc0  147dbd10 ffffffc0 09d8bfe8 ffffffc0 56000000 00000000 00000000 00000000
+[  202.846343]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	name : BE_VOICE_CODEC
+[  202.855508]c7 [ T6713] bce0  73be22e8 ffffff81 7175d880 ffffff81 9e4f4000 0000007f 00040000 00000000
+[  202.855510]c7 [ T6713] bd00  73be2280 ffffff81 147dbe10 ffffffc0 147dbdb0 ffffffc0 104dc790 ffffffc0
+[  202.861568]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	stream_name : BE_ST_VOICE_CODEC
+[  202.867276]c7 [ T6713] bd20  00000000 00000000 09d68414 ffffffc0 00040000 00000000 9e4f4000 0000007f
+[  202.867281]c7 [ T6713] 
+[  202.867281]c7 [ T6713] X0: 0xffffffc0149f4f80:
+[  202.874821]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	name : BE_VOIP_CODEC
+[  202.882248]c7 [ T6713] 4f80  ******** ******** ******** ******** ******** ******** ******** ********
+[  202.889778]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	stream_name : BE_ST_VOIP_CODEC
+[  202.894016]c7 [ T6713] 4fa0  ******** ******** ******** ******** ******** ******** ******** ********
+[  202.894020]c7 [ T6713] 4fc0  ******** ******** ******** ******** ******** ******** ******** ********
+[  202.900262]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	name : BE_FM_CODEC
+[  202.906479]c7 [ T6713] 4fe0  ******** ******** ******** ******** ******** ******** ******** ********
+[  202.906483]c7 [ T6713] 5000  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[  202.912712]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	stream_name : BE_ST_FM_CODEC
+[  202.918939]c7 [ T6713] 5020  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[  202.918942]c7 [ T6713] 5040  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[  202.927353]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	name : BE_LOOP_CODEC
+[  202.933566]c7 [ T6713] 5060  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[  202.933568]c7 [ T6713] 
+[  202.933568]c7 [ T6713] X1: 0xffffffc014a34f80:
+[  202.933569]c7 [ T6713] 4f80  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[  202.939797]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	stream_name : BE_ST_LOOP_CODEC
+[  202.946026]c7 [ T6713] 4fa0  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[  202.946028]c7 [ T6713] 4fc0  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[  202.946031]c7 [ T6713] 4fe0  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[  202.952267]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	name : BE_FM_DSP_CODEC
+[  202.958487]c7 [ T6713] 5000  ******** ******** ******** ******** ******** ******** ******** ********
+[  202.958490]c7 [ T6713] 5020  ******** ******** ******** ******** ******** ******** ******** ********
+[  202.965414]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	stream_name : BE_ST_FM_DSP_CODEC
+[  202.971641]c7 [ T6713] 5040  ******** ******** ******** ******** ******** ******** ******** ********
+[  202.971645]c7 [ T6713] 5060  ******** ******** ******** ******** ******** ******** ******** ********
+[  202.977886]c5 [  T279] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of parse phandle 'codec' failed!(-2)
+[  202.984104]c7 [ T6713] 
+[  202.984104]c7 [ T6713] X9: 0xfffffffffff7ff80:
+[  202.984104]c7 [ T6713] ff80  ******** ******** ******** ******** ******** ******** ******** ********
+[  202.990342]c5 [  T279] [ASoC:BOARD] asoc_sprd_card_dai_link_of: parse for codec failed. Go to use a dummy codec.
+[  202.996565]c7 [ T6713] ffa0  ******** ******** ******** ******** ******** ******** ******** ********
+[  202.996569]c7 [ T6713] ffc0  ******** ******** ******** ******** ******** ******** ******** ********
+[  203.004352]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	name : BE_NORMAL_AP01_USB
+[  203.010584]c7 [ T6713] ffe0  ******** ******** ******** ******** ******** ******** ******** ********
+[  203.010592]c7 [ T6713] 0000  ******** ******** ******** ******** ******** ******** ******** ********
+[  203.017423]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	stream_name : BE_ST_NORMAL_AP01_USB
+[  203.024603]c7 [ T6713] 0020  ******** ******** ******** ******** ******** ******** ******** ********
+[  203.024608]c7 [ T6713] 0040  ******** ******** ******** ******** ******** ******** ******** ********
+[  203.033697]c5 [  T279] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of parse phandle 'codec' failed!(-2)
+[  203.042776]c7 [ T6713] 0060  ******** ******** ******** ******** ******** ******** ******** ********
+[  203.042781]c7 [ T6713] 
+[  203.042781]c7 [ T6713] X10: 0xffffffc014a34f7f:
+[  203.050826]c5 [  T279] [ASoC:BOARD] asoc_sprd_card_dai_link_of: parse for codec failed. Go to use a dummy codec.
+[  203.059911]c7 [ T6713] 4f7c  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[  203.059914]c7 [ T6713] 4f9c  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[  203.069004]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	name : BE_NORMAL_AP23_USB
+[  203.078084]c7 [ T6713] 4fbc  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[  203.078086]c7 [ T6713] 4fdc  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[  203.085096]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	stream_name : BE_ST_NORMAL_AP23_USB
+[  203.094180]c7 [ T6713] 4ffc  00000000 ******** ******** ******** ******** ******** ******** ********
+[  203.094184]c7 [ T6713] 501c  ******** ******** ******** ******** ******** ******** ******** ********
+[  203.103279]c5 [  T279] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of parse phandle 'codec' failed!(-2)
+[  203.111141]c7 [ T6713] 503c  ******** ******** ******** ******** ******** ******** ******** ********
+[  203.111144]c7 [ T6713] 505c  ******** ******** ******** ******** ******** ******** ******** ********
+[  203.120229]c5 [  T279] [ASoC:BOARD] asoc_sprd_card_dai_link_of: parse for codec failed. Go to use a dummy codec.
+[  203.127065]c7 [ T6713] 507c  ******** ******** ******** ******** ******** ******** ******** ********
+[  203.127074]c7 [ T6713] 
+[  203.127074]c7 [ T6713] X15: 0xffffffc011e6b600:
+[  203.133996]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	name : BE_CAPTURE_DSP_USB
+[  203.143074]c7 [ T6713] b600  11e6af40 ffffffc0 11d18ce0 ffffffc0 00000000 00000000 00100000 00000000
+[  203.143077]c7 [ T6713] b620  000f861a 00000000 000fffff 00000000 000fffff 00000000 118510b0 ffffffc0
+[  203.150866]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	stream_name : BE_ST_CAPTURE_DSP_USB
+[  203.159950]c7 [ T6713] b640  00000000 00000000 00000000 00000000 00000001 00000000 00000000 00000000
+[  203.159952]c7 [ T6713] b660  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[  203.169048]c5 [  T279] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of parse phandle 'codec' failed!(-2)
+[  203.175785]c7 [ T6713] b680  05a6dd08 ffffffff 05abf748 ffffffff 0564e748 ffffffff 056340c8 ffffffff
+[  203.175788]c7 [ T6713] b6a0  11e6b6a0 ffffffc0 11e6b6a0 ffffffc0 11e6b6b0 ffffffc0 11e6b6b0 ffffffc0
+[  203.184874]c5 [  T279] [ASoC:BOARD] asoc_sprd_card_dai_link_of: parse for codec failed. Go to use a dummy codec.
+[  203.193960]c7 [ T6713] b6c0  11e6b6c0 ffffffc0 11e6b6c0 ffffffc0 11e6b6d0 ffffffc0 11e6b6d0 ffffffc0
+[  203.193962]c7 [ T6713] b6e0  000001e9 00000000 05a60908 ffffffff 05abf788 ffffffff 05634108 ffffffff
+[  203.201584]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	name : BE_FAST_USB
+[  203.210662]c7 [ T6713] 
+[  203.210662]c7 [ T6713] X17: 0xffffffc011f159c4:
+[  203.210662]c7 [ T6713] 59c4  00000000 00000000 00000000 00000000 00000000 00000000 00000000 76648200
+[  203.210666]c7 [ T6713] 59e4  ffffff81 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[  203.219749]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	stream_name : BE_ST_FAST_USB
+[  203.226670]c7 [ T6713] 5a04  00000000 77c915f0 ffffff81 6f5d9110 ffffff81 77c072b0 ffffff81 00000002
+[  203.226672]c7 [ T6713] 5a24  00000000 11e07540 ffffffc0 00000001 00000000 00000000 00000000 00000000
+[  203.235768]c5 [  T279] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of parse phandle 'codec' failed!(-2)
+[  203.242595]c7 [ T6713] 5a44  00370050 c2000000 00000000 00000000 746f6f42 20676e69 756e694c 6e6f2078
+[  203.242597]c7 [ T6713] 5a64  79687020 61636973 5043206c 78302055 30303030 30303030 5b203030 31347830
+[  203.251681]c5 [  T279] [ASoC:BOARD] asoc_sprd_card_dai_link_of: parse for codec failed. Go to use a dummy codec.
+[  203.259469]c7 [ T6713] 5a84  30646632 005d3035 00000000 00000000 009e00b8 a2000000 00000000 00000000
+[  203.259472]c7 [ T6713] 5aa4  756e694c 65762078 6f697372 2e35206e 35322e34 62672d34 62643035 32366235
+[  203.268559]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	name : BE_OFFLOAD_USB
+[  203.277644]c7 [ T6713] 
+[  203.277644]c7 [ T6713] X18: 0xffffffc0145e9fc0:
+[  203.277644]c7 [ T6713] 9fc0  ******** ******** ******** ******** ******** ******** ******** ********
+[  203.286730]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	stream_name : BE_ST_OFFLOAD_USB
+[  203.293825]c7 [ T6713] 9fe0  ******** ******** ******** ******** ******** ******** ******** ********
+[  203.293833]c7 [ T6713] a000  10084708 ffffffc0 102405c0 ffffffc0 10240690 ffffffc0 104dd208 ffffffc0
+[  203.302919]c5 [  T279] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of parse phandle 'codec' failed!(-2)
+[  203.311998]c7 [ T6713] a020  104dd180 ffffffc0 104dca98 ffffffc0 104dc790 ffffffc0 09d8bfe8 ffffffc0
+[  203.312001]c7 [ T6713] a040  10083444 ffffffc0 10081478 ffffffc0 112969d4 ffffffc0 11296a7c ffffffc0
+[  203.319962]c5 [  T279] [ASoC:BOARD] asoc_sprd_card_dai_link_of: parse for codec failed. Go to use a dummy codec.
+[  203.329046]c7 [ T6713] a060  1024cd68 ffffffc0 1024cde8 ffffffc0 10235e88 ffffffc0 1022d788 ffffffc0
+[  203.329049]c7 [ T6713] a080  1022d878 ffffffc0 1022e5c4 ffffffc0 1043c868 ffffffc0 103169f4 ffffffc0
+[  203.338141]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	name : BE_VOICE_USB
+[  203.347391]c7 [ T6713] a0a0  10313d18 ffffffc0 1031346c ffffffc0 10313278 ffffffc0 11280f24 ffffffc0
+[  203.347394]c7 [ T6713] 
+[  203.347394]c7 [ T6713] X19: 0xffffffc0149f4f80:
+[  203.347394]c7 [ T6713] 4f80  ******** ******** ******** ******** ******** ******** ******** ********
+[  203.354232]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	stream_name : BE_ST_VOICE_USB
+[  203.363314]c7 [ T6713] 4fa0  ******** ******** ******** ******** ******** ******** ******** ********
+[  203.363317]c7 [ T6713] 4fc0  ******** ******** ******** ******** ******** ******** ******** ********
+[  203.373452]c5 [  T279] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of parse phandle 'codec' failed!(-2)
+[  203.382527]c7 [ T6713] 4fe0  ******** ******** ******** ******** ******** ******** ******** ********
+[  203.382530]c7 [ T6713] 5000  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[  203.391614]c5 [  T279] [ASoC:BOARD] asoc_sprd_card_dai_link_of: parse for codec failed. Go to use a dummy codec.
+[  203.398969]c7 [ T6713] 5020  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[  203.398971]c7 [ T6713] 5040  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[  203.408058]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	name : BE_VOIP_USB
+[  203.417143]c7 [ T6713] 5060  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[  203.417147]c7 [ T6713] 
+[  203.417147]c7 [ T6713] X29: 0xffffffc0147dbc40:
+[  203.425366]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	stream_name : BE_ST_VOIP_USB
+[  203.434448]c7 [ T6713] bc40  00000000 00000000 56000000 00000000 00000000 00000000 00000000 00000000
+[  203.434451]c7 [ T6713] bc60  7175d880 ffffff81 147dbcc0 ffffffc0 09d8c278 ffffffc0 147dbcc0 ffffffc0
+[  203.443547]c5 [  T279] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of parse phandle 'codec' failed!(-2)
+[  203.452796]c7 [ T6713] bc80  09d8c2b4 ffffffc0 60400005 00000000 00000000 00000000 9e4f4000 0000007f
+[  203.452798]c7 [ T6713] bca0  ffffffff 0000007f 147dbe10 ffffffc0 147dbcc0 ffffffc0 09d8c2b4 ffffffc0
+[  203.461884]c5 [  T279] [ASoC:BOARD] asoc_sprd_card_dai_link_of: parse for codec failed. Go to use a dummy codec.
+[  203.468805]c7 [ T6713] bcc0  147dbd10 ffffffc0 09d8bfe8 ffffffc0 56000000 00000000 00000000 00000000
+[  203.468808]c7 [ T6713] bce0  73be22e8 ffffff81 7175d880 ffffff81 9e4f4000 0000007f 00040000 00000000
+[  203.478939]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	name : BE_FM_USB
+[  203.488017]c7 [ T6713] bd00  73be2280 ffffff81 147dbe10 ffffffc0 147dbdb0 ffffffc0 104dc790 ffffffc0
+[  203.488020]c7 [ T6713] bd20  00000000 00000000 09d68414 ffffffc0 00040000 00000000 9e4f4000 0000007f
+[  203.497105]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	stream_name : BE_ST_FM_USB
+[  203.504458]c7 [ T6713] 
+[  203.504459]c7 [ T6713] Call trace:
+[  203.504488]c7 [ T6713]  vbc_turning_ndp_read+0x120/0x560 [snd_soc_sprd_vbc_v4]
+[  203.504508]c7 [ T6713]  vbc_turning_structure_read+0x1c/0x28 [snd_soc_sprd_vbc_v4]
+[  203.513552]c5 [  T279] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of parse phandle 'codec' failed!(-2)
+[  203.522636]c7 [ T6713]  __vfs_read+0x60/0x1f8
+[  203.522638]c7 [ T6713]  vfs_read+0xbc/0x15c
+[  203.530856]c5 [  T279] [ASoC:BOARD] asoc_sprd_card_dai_link_of: parse for codec failed. Go to use a dummy codec.
+[  203.539941]c7 [ T6713]  ksys_read+0x78/0xe4
+[  203.539942]c7 [ T6713]  __arm64_sys_read+0x1c/0x28
+[  203.539947]c7 [ T6713]  el0_svc_common+0xc4/0x1ac
+[  203.539949]c7 [ T6713]  el0_svc_handler+0x1c/0x28
+[  203.549030]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	name : BE_LOOP_USB
+[  203.558289]c7 [ T6713]  el0_svc+0x8/0x100
+[  203.558292]c7 [ T6713] Code: f9446ae8 aa0003f3 2a1603f8 f9400108 (f9400d08) 
+[  203.567374]c5 [  T279] vbc-rxpx-codec-sc27xx sound@0: 	stream_name : BE_ST_LOOP_USB
+[  203.576459]c7 [ T6713] ---[ end trace ee1bdd8cff92e2d1 ]---
+[  203.601507]c7 [ T6713] Kernel panic - not syncing: Fatal exception
+[  203.608271]c5 [  T279] [ASoC:BOARD] ERR: asoc_sprd_card_sub_parse_of parse phandle 'codec' failed!(-2)
+[  203.615190]c7 [ T6713] SMP: stopping secondary CPUs
+[  203.615269]c6 [    C6] CPU6: stopping...
+[  204.312727]c4 [    C4] CPU4: stopping...
+[  204.316633]c3 [    C3] CPU3: stopping...
+[  204.320697]c2 [    C2] CPU2: stopping...
+[  204.324734]c1 [    C1] CPU1: stopping...
+[  204.328776]c0 [    C0] CPU0: stopping...
+[  204.332841]c5 [    C5] CPU5: stopping...
+[  204.336823]c7 [ T6713] ddr_cur_freq: 6
+[  204.340470]c7 [ T6713] ufs_sprd_cmd_history_dump_trace: NO UFS cmd was recorded
+[  204.349702]c7 [ T6713] unisoc-mailbox smsg_senddie mailbox send die smsg
+[  204.356297]c7 [ T6713] unisoc-mailbox smsg_senddie mailbox send die smsg
+[  204.362957]c7 [ T6713] sprd-sysdump: (sysdump_panic_event) ------ in (0)
+[  205.369782]c7 [ T6713] sprd-sysdump: 
+[  205.373341]c7 [ T6713] sprd-sysdump: *****************************************************
+[  205.381562]c7 [ T6713] sprd-sysdump: *                                                   *
+[  205.389781]c7 [ T6713] sprd-sysdump: *  Sysdump enter, preparing debug info to dump ...  *
+[  205.398002]c7 [ T6713] sprd-sysdump: *                                                   *
+[  205.406225]c7 [ T6713] sprd-sysdump: *****************************************************
+[  205.414444]c7 [ T6713] sprd-sysdump: 
+[  205.418081]c7 [ T6713] sprd-sysdump: reason: Fatal exception, sprd_sysdump_info->crash_key: 0
+[  205.426740]c7 [ T6713] sprd-sysdump: KTXT VERIFY...
+[  205.520176]c7 [ T6713] sprd-sysdump: KTXT [0xffffffc010081000--0xffffffc0112d0000]
+[  205.527628]c7 [ T6713] sprd-sysdump: SHA1:
+[  205.531694]c7 [ T6713] sprd-sysdump: e01aee38 5a476c5d f52e4768 b43e6b86 1efbf22c
+[  205.539137]c7 [ T6713] sprd-sysdump: 
+[  205.542772]c7 [ T6713] sprd-sysdump: *****************************************************
+[  205.550991]c7 [ T6713] sprd-sysdump: *                                                   *
+[  205.559214]c7 [ T6713] sprd-sysdump: *  Try to reboot system ...                         *
+[  205.567434]c7 [ T6713] sprd-sysdump: *                                                   *
+[  205.575656]c7 [ T6713] sprd-sysdump: *****************************************************
+[  205.583876]c7 [ T6713] sprd-sysdump: 
+[  206.587682]c7 [ T6713] Kernel Offset: disabled
+[  206.592021]c7 [ T6713] CPU features: 0x00030006,2a00a238
+[  206.597296]c7 [ T6713] Memory Limit: none
+[  206.601280]c7 [ T6713] trusty-log panic notifier - trusty version Unisoc TEE v2.1.1, qogirn6pro, Built: 03:44:22 Mar  5 2024, c37ad1a7 (builder@zishcicd0122)
+[  206.601291]c7 [ T6713] kmsg get flag is 1, return
+[  206.632776]c7 [ T6713] Rebooting in 3 seconds..

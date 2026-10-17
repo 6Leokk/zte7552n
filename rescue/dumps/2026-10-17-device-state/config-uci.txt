@@ -1,0 +1,272 @@
+Warning: Permanently added '192.168.77.1' (ED25519) to the list of known hosts.
+### /etc/config/network
+
+config interface 'loopback'
+	option device 'lo'
+	option proto 'static'
+	list ipaddr '127.0.0.1/8'
+
+config globals 'globals'
+	option dhcp_default_duid '000406ae1cab799e432aa63692fb1455683b'
+	option ula_prefix 'fd96:b832:c98b::/48'
+
+config device
+	option name 'br-lan'
+	option type 'bridge'
+	list ports 'usb0'
+
+config interface 'lan'
+	option device 'br-lan'
+	option proto 'static'
+	option ipaddr '192.168.77.1'
+	option ip6assign '60'
+	option netmask '255.255.255.0'
+
+config interface 'wan'
+	option proto 'changxing60cell'
+	option ipv6 'relay'
+
+config device 'brwifi'
+	option name 'br-wifi'
+	option type 'bridge'
+
+config interface 'wifi'
+	option device 'br-wifi'
+	option proto 'static'
+	option ipaddr '192.168.8.1'
+	option netmask '255.255.255.0'
+	option ip6assign '60'
+
+### /etc/config/firewall
+
+config defaults
+	option syn_flood '1'
+	option input 'REJECT'
+	option output 'ACCEPT'
+	option forward 'REJECT'
+
+config zone
+	option name 'lan'
+	option input 'ACCEPT'
+	option output 'ACCEPT'
+	option forward 'ACCEPT'
+	list network 'lan'
+	list network 'wifi'
+
+config zone
+	option name 'wan'
+	list network 'wan'
+	list network 'wan6'
+	option input 'REJECT'
+	option output 'ACCEPT'
+	option forward 'DROP'
+	option masq '1'
+	option mtu_fix '1'
+	option masq6 '1'
+
+config forwarding
+	option src 'lan'
+	option dest 'wan'
+
+config rule
+	option name 'Allow-DHCP-Renew'
+	option src 'wan'
+	option proto 'udp'
+	option dest_port '68'
+	option target 'ACCEPT'
+	option family 'ipv4'
+
+config rule
+	option name 'Allow-Ping'
+	option src 'wan'
+	option proto 'icmp'
+	option icmp_type 'echo-request'
+	option family 'ipv4'
+	option target 'ACCEPT'
+
+config rule
+	option name 'Allow-IGMP'
+	option src 'wan'
+	option proto 'igmp'
+	option family 'ipv4'
+	option target 'ACCEPT'
+
+config rule
+	option name 'Allow-DHCPv6'
+	option src 'wan'
+	option proto 'udp'
+	option dest_port '546'
+	option family 'ipv6'
+	option target 'ACCEPT'
+
+config rule
+	option name 'Allow-MLD'
+	option src 'wan'
+	option proto 'icmp'
+	option src_ip 'fe80::/10'
+	list icmp_type '130/0'
+	list icmp_type '131/0'
+	list icmp_type '132/0'
+	list icmp_type '143/0'
+	option family 'ipv6'
+	option target 'ACCEPT'
+
+config rule
+	option name 'Allow-ICMPv6-Input'
+	option src 'wan'
+	option proto 'icmp'
+	list icmp_type 'echo-request'
+	list icmp_type 'echo-reply'
+	list icmp_type 'destination-unreachable'
+	list icmp_type 'packet-too-big'
+	list icmp_type 'time-exceeded'
+	list icmp_type 'bad-header'
+	list icmp_type 'unknown-header-type'
+	list icmp_type 'router-solicitation'
+	list icmp_type 'neighbour-solicitation'
+	list icmp_type 'router-advertisement'
+	list icmp_type 'neighbour-advertisement'
+	option limit '1000/sec'
+	option family 'ipv6'
+	option target 'ACCEPT'
+
+config rule
+	option name 'Allow-ICMPv6-Forward'
+	option src 'wan'
+	option dest '*'
+	option proto 'icmp'
+	list icmp_type 'echo-request'
+	list icmp_type 'echo-reply'
+	list icmp_type 'destination-unreachable'
+	list icmp_type 'packet-too-big'
+	list icmp_type 'time-exceeded'
+	list icmp_type 'bad-header'
+	list icmp_type 'unknown-header-type'
+	option limit '1000/sec'
+	option family 'ipv6'
+	option target 'ACCEPT'
+
+config rule
+	option name 'Allow-IPSec-ESP'
+	option src 'wan'
+	option dest 'lan'
+	option proto 'esp'
+	option target 'ACCEPT'
+
+config rule
+	option name 'Allow-ISAKMP'
+	option src 'wan'
+	option dest 'lan'
+	option dest_port '500'
+	option proto 'udp'
+	option target 'ACCEPT'
+
+config include 'openclash'
+	option type 'script'
+	option path '/var/etc/openclash.include'
+
+### /etc/config/wireless
+
+config wifi-device 'radio0'
+	option type 'mac80211'
+	option phy 'phy0'
+	option band '5g'
+	option channel '36'
+	option htmode 'VHT80'
+	option country 'TR'
+
+config wifi-iface 'ap0'
+	option device 'radio0'
+	option network 'wifi'
+	option mode 'ap'
+	option ifname 'wlan0'
+	option ssid 'changxing60'
+	option encryption 'psk2'
+	option key '<REDACTED-PSK>'
+	option macaddr '<REDACTED-MAC>'
+	option bss_load_update_period '0'
+	option chan_util_avg_period '0'
+
+### /etc/config/system
+
+config system
+	option hostname 'changxing60'
+	option timezone '<+03>-3'
+	option zonename 'Europe/Istanbul'
+	option ttylogin '0'
+	option log_size '128'
+	option urandom_seed '0'
+	option description 'Changxing 60 (ZTE 7552N) - OpenWrt'
+
+config timeserver 'ntp'
+	option enabled '1'
+	option enable_server '0'
+	list server '0.openwrt.pool.ntp.org'
+	list server '1.openwrt.pool.ntp.org'
+	list server '2.openwrt.pool.ntp.org'
+	list server '3.openwrt.pool.ntp.org'
+
+### /etc/config/dhcp
+
+config dnsmasq
+	option domainneeded '1'
+	option boguspriv '1'
+	option filterwin2k '0'
+	option localise_queries '1'
+	option rebind_protection '1'
+	option rebind_localhost '1'
+	option local '/lan/'
+	option domain 'lan'
+	option expandhosts '1'
+	option nonegcache '0'
+	option cachesize '0'
+	option authoritative '1'
+	option readethers '1'
+	option leasefile '/tmp/dhcp.leases'
+	option nonwildcard '1'
+	option localservice '1'
+	option ednspacket_max '1232'
+	option filter_aaaa '0'
+	option filter_a '0'
+	option noresolv '1'
+	option localuse '1'
+	list server '127.0.0.1#7874'
+
+config dhcp 'lan'
+	option interface 'lan'
+	option start '100'
+	option limit '150'
+	option leasetime '12h'
+	option dhcpv4 'server'
+	option dhcpv6 'disabled'
+	option ra 'disabled'
+	option ra_slaac '1'
+	list dhcp_option '3'
+	list dhcp_option '6'
+
+config odhcpd 'odhcpd'
+	option maindhcp '0'
+	option leasefile '/tmp/odhcpd.leases'
+	option leasetrigger '/usr/sbin/odhcpd-update'
+	option loglevel '4'
+	option piodir '/tmp/odhcpd-piodir'
+	option hostsdir '/tmp/hosts'
+
+config dhcp 'wifi'
+	option interface 'wifi'
+	option start '100'
+	option limit '150'
+	option leasetime '12h'
+	option dhcpv4 'server'
+	option dhcpv6 'relay'
+	option ra 'relay'
+	option ra_slaac '1'
+	list ra_flags 'managed-config'
+	list ra_flags 'other-config'
+
+config dhcp 'wan'
+	option interface 'wan'
+	option master '1'
+	option ra 'relay'
+	option dhcpv6 'relay'
+

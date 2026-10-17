@@ -1,0 +1,111 @@
+Warning: Permanently added '192.168.77.1' (ED25519) to the list of known hosts.
+* * * * * /opt/changxing60/bin/charge-fix >/dev/null 2>&1
+* * * * * /opt/changxing60/bin/bootdiag >/dev/null 2>&1
+0 0 * * * /usr/share/openclash/openclash.sh #openclash-cron-task
+--- /etc/changxing60 ---
+-rw-r--r--    1 root     root             3 Oct 16 18:51 backlight
+-rw-r--r--    1 root     root           132 Oct 16 18:48 boot-history
+-rw-r--r--    1 root     root            80 Oct 16 18:54 call-log
+-rw-r--r--    1 root     root            25 Oct 16 12:49 contacts
+-rw-r--r--    1 1000     1000             6 Oct 13 21:26 default-boot
+-rw-------    1 1000     1000            68 Oct 13 09:23 hotspot.conf
+drwx------    2 root     root          1024 Oct 16 16:07 sms-forward.d
+drwx------    3 root     root          1024 Oct 16 12:31 sms-pool
+-rw-r--r--    1 root     root             0 Oct 15 22:13 vendor-bisect
+-rw-r--r--    1 root     root           808 Oct 15 22:13 vendor-candidates
+-rw-r--r--    1 root     root           200 Oct 15 22:36 vendor-good
+-rw-r--r--    1 root     root          2390 Oct 16 16:14 voice-audio.conf
+-rw-r--r--    1 1000     1000             0 Oct 12 19:37 wifi-configured
+--- each file ---
+### /etc/changxing60/backlight
+75
+### /etc/changxing60/boot-history
+2026-10-16 18:48:53 +0300 uptime=1226 kernel=5.4.254-gb50db5b6224c bootcause="Reboot into ap watchdog" androidboot.mode=apwdgreboot
+### /etc/changxing60/call-log
+1792165769|out|failed|+86REDACTED-NUMBER||0
+1792166054|out|answered|REDACTED-NUMBER||14
+### /etc/changxing60/contacts
++8613800138000|Zhang Wei
+### /etc/changxing60/default-boot
+linux
+### /etc/changxing60/hotspot.conf
+SSID=CHANGXING60-D0FD
+PSK=<REDACTED-PSK>
+BAND=5
+CHANNEL=36
+COUNTRY=TR
+### /etc/changxing60/vendor-bisect
+### /etc/changxing60/vendor-candidates
+# Driver-adaptation candidates, walked by `vendor-modules bisect`, one batch per 20 s window.
+# Format: <batch-name> <module.ko> ...
+# One batch died with `CFI failure (target: 0x0)` in a timer callback ~3 s after its modules
+# registered (2026-10-16); apsys-dvfs is first because its own probe said
+# "No matching driver data found", which is exactly how a driver ends up with an unarmed
+# callback. Batches are single modules where a single module can be blamed.
+apsys-dvfs   apsys-dvfs.ko
+sprd-map     sprd_map.ko
+sprd-dma     virt-dma.ko sprd-dma.ko
+ledtrig      ledtrig-pattern.ko
+sprd-uid     misc_sprd_uid.ko
+bootreason   zte_bootreason.ko
+board-state  board_state.ko
+smartpa      smartpa_stat.ko
+zte-stats    zte_stats_info.ko
+ion          ion_ipc_trusty.ko ion_cma_heap.ko
+sensorhub    sensorhub.ko
+### /etc/changxing60/vendor-good
+apsys-dvfs.ko
+sprd_map.ko
+virt-dma.ko
+sprd-dma.ko
+ledtrig-pattern.ko
+misc_sprd_uid.ko
+zte_bootreason.ko
+board_state.ko
+smartpa_stat.ko
+zte_stats_info.ko
+ion_ipc_trusty.ko
+ion_cma_heap.ko
+sensorhub.ko
+### /etc/changxing60/voice-audio.conf
+# Calibration for changxing60-voice-audio. Every key here is optional; with this file absent or
+# fully commented out the built-in defaults are used. Copy a line, uncomment it, edit the number.
+#
+# This file exists because the one thing in the voice path that is NOT the driver's is the table of
+# DSP mode numbers. A profile Select word is (mode << 24) | (mode << 16) | 5, where the mode indexes
+# a parameter set inside /lib/firmware/audio_structure and 5 is VBC_DAI_ID_VOICE. The numbering
+# belongs to this machine's parameter table, so it cannot be read out of the driver and it cannot be
+# proved from the blob alone -- it has to be confirmed by listening to a real call.
+#
+# The shipped defaults are the VIPME M8 table (same UMS9620/SC2730 family) at the indices where our
+# own blob's gain curves look like a per-band table should. selftest prints those curves. To find
+# the right number for a band: place a call, listen, change the key, restart the call, listen again.
+# Band 0/1/2/3 are narrowband/wideband/super-wideband/fullband.
+#
+# mode-handset-nb   = 0
+# mode-handset-wb   = 2
+# mode-handset-swb  = 4
+# mode-handset-fb   = 5
+# mode-handsfree-nb = 7
+# mode-handsfree-wb = 9
+# mode-handsfree-swb = 11
+# mode-handsfree-fb = 12
+# mode-bluetooth-nb = 28
+# mode-bluetooth-wb = 30
+# mode-bluetooth-swb = 32
+# mode-bluetooth-fb = 33
+
+# Analog codec gains. These are the three knobs that decide how loud the call is before the DSP gets
+# a say, and nothing has ever set them on this board: the card comes up with DAC 0, AO 0 and EAR 15.
+# An analog stage that is too loud clips before any DSP attenuation can help, and one that is too
+# quiet cannot be recovered downstream. The values below are e5's fallbacks, and the card's own
+# limits are enforced on top of them (DAC Gain DAC Playback Volume is 0..2 here, not 0..3, so the
+# default of 3 is written as 2 and the clamp is logged).
+#
+# gain-dac-receiver = 3
+# gain-dac-speaker  = 3
+# gain-ao-receiver  = 6
+# gain-ao-speaker   = 4
+# gain-ear-nb       = 2
+# gain-ear-wb       = 2
+### /etc/changxing60/wifi-configured

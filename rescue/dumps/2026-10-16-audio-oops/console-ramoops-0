@@ -1,0 +1,221 @@
+253]c1 [ T2530] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4317data->uusoc_vbat=0
+[12827.863040]c1 [ T2530] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4318data->uusoc_vbat=0
+[12829.933528]c1 [ T2530] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4318data->uusoc_vbat=0
+[12831.453168]c3 [T18497] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4320000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4318data->uusoc_vbat=0
+[12831.477296]c3 [T18497] charger-manager charger-manager: Can not to get board tempperature, return init_temp=250
+[12831.883723]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[12831.987995]c1 [ T2530] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4317data->uusoc_vbat=0
+[12834.058891]c1 [ T2530] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4318data->uusoc_vbat=0
+[12836.111560]c4 [ T2530] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4315data->uusoc_vbat=0
+[12838.165119]c4 [ T2530] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4317data->uusoc_vbat=0
+[12839.883971]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[12840.203277]c4 [ T2530] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4317000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4315data->uusoc_vbat=0
+[12842.257831]c4 [ T2530] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4315data->uusoc_vbat=0
+[12842.682089]c0 [    C0] sipa_eth: fail to send, ret -115
+[12844.296239]c4 [ T2530] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4314data->uusoc_vbat=0
+[12846.351348]c4 [ T2530] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4310data->uusoc_vbat=0
+[12846.557516]c2 [T18497] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4310data->uusoc_vbat=0
+[12846.580730]c2 [T18497] charger-manager charger-manager: Can not to get board tempperature, return init_temp=250
+[12847.884027]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[12851.313397]c5 [ T8387] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4314data->uusoc_vbat=0
+[12851.818663]c5 [ T8387] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4317data->uusoc_vbat=0
+[12851.898253]c5 [ T8387] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4314data->uusoc_vbat=0
+[12853.952450]c5 [ T8387] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4318data->uusoc_vbat=0
+[12855.883717]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[12856.005979]c5 [ T8387] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4318data->uusoc_vbat=0
+[12857.898508]c4 [ T8387] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4317data->uusoc_vbat=0
+[12860.067807]c0 [    C0] sipa_eth: fail to send, ret -115
+[12861.663571]c3 [ T7753] charger-manager charger-manager: Can not to get board tempperature, return init_temp=250
+[12863.073927]c1 [ T8387] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4317data->uusoc_vbat=0
+[12863.883917]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[12865.129312]c2 [ T8387] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4320000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4317data->uusoc_vbat=0
+[12867.182214]c1 [ T8387] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4317data->uusoc_vbat=0
+[12869.239268]c1 [ T8387] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4318data->uusoc_vbat=0
+[12870.734694]c1 [ T8387] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4317data->uusoc_vbat=0
+[12871.126461]c4 [ T9335] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4317data->uusoc_vbat=0
+[12871.883841]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[12873.179053]c7 [ T9335] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4318data->uusoc_vbat=0
+[12874.886131]c0 [T12378] sipa_eth: fail to send, ret -115
+[12876.771508]c3 [ T7753] charger-manager charger-manager: Can not to get board tempperature, return init_temp=250
+[12879.883133]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[12886.998902]c2 [ T9335] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4318data->uusoc_vbat=0
+[12887.883879]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[12889.053487]c2 [ T9335] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4318data->uusoc_vbat=0
+[12891.871487]c1 [ T7753] charger-manager charger-manager: Can not to get board tempperature, return init_temp=250
+[12895.884026]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[12903.883799]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[12905.175682]c0 [T11970] sipa_eth: fail to send, ret -115
+[12906.974687]c3 [T18497] charger-manager charger-manager: Can not to get board tempperature, return init_temp=250
+[12911.883208]c6 [ T1291] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[12914.161772]c0 [ T6864] sipa_eth: fail to send, ret -115
+[12915.597465]c3 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4315data->uusoc_vbat=0
+[12917.651262]c3 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4315data->uusoc_vbat=0
+[12919.722369]c0 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4315data->uusoc_vbat=0
+[12919.883736]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[12921.777133]c3 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4317data->uusoc_vbat=0
+[12922.076778]c2 [ T4366] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4315data->uusoc_vbat=0
+[12922.100819]c2 [ T4366] charger-manager charger-manager: Can not to get board tempperature, return init_temp=250
+[12923.833075]c3 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4317000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4315data->uusoc_vbat=0
+[12925.887156]c3 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4317data->uusoc_vbat=0
+[12926.162122]c0 [T10163] sipa 25220000.sipa: task fill_recv 1
+[12926.167691]c0 [T10163] sipa 25220000.sipa: thread prepare suspend err
+[12927.883076]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[12927.957363]c3 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4314data->uusoc_vbat=0
+[12930.012488]c3 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4317data->uusoc_vbat=0
+[12932.065641]c0 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4315data->uusoc_vbat=0
+[12934.103087]c4 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4317data->uusoc_vbat=0
+[12935.883222]c6 [ T1291] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[12937.183979]c3 [ T4366] charger-manager charger-manager: Can not to get board tempperature, return init_temp=250
+[12937.445007]c0 [    C0] sipa_eth: fail to send, ret -115
+[12943.883748]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[12950.392412]c1 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4318data->uusoc_vbat=0
+[12951.840076]c1 [T12402] sipa_eth: fail to send, ret -115
+[12951.883710]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[12952.285494]c2 [T18497] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4318data->uusoc_vbat=0
+[12952.308213]c2 [T18497] charger-manager charger-manager: Can not to get board tempperature, return init_temp=250
+[12952.447457]c1 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4314data->uusoc_vbat=0
+[12954.502763]c1 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4317data->uusoc_vbat=0
+[12956.575073]c3 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4318data->uusoc_vbat=0
+[12958.628315]c3 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4318data->uusoc_vbat=0
+[12959.883799]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[12960.683706]c3 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4317data->uusoc_vbat=0
+[12962.737566]c3 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4315data->uusoc_vbat=0
+[12964.806173]c3 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4317data->uusoc_vbat=0
+[12966.845940]c3 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4318data->uusoc_vbat=0
+[12967.388774]c3 [ T4366] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4318data->uusoc_vbat=0
+[12967.411736]c4 [ T4366] charger-manager charger-manager: Can not to get board tempperature, return init_temp=250
+[12967.883254]c6 [ T1291] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[12968.916978]c4 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4317data->uusoc_vbat=0
+[12970.290283]c7 [T12620] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4317000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4317data->uusoc_vbat=0
+[12970.953738]c4 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4318data->uusoc_vbat=0
+[12973.008951]c4 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4318data->uusoc_vbat=0
+[12975.883945]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[12980.824416]c3 [T12380] sipa_eth: fail to send, ret -115
+[12982.496129]c2 [T18497] charger-manager charger-manager: Can not to get board tempperature, return init_temp=250
+[12983.883257]c6 [ T1291] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[12987.683472]c0 [T12399] sipa_eth: fail to send, ret -115
+[12991.883816]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[12993.411273]c1 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4315data->uusoc_vbat=0
+[12995.464102]c1 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4317data->uusoc_vbat=0
+[12997.533517]c1 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4317data->uusoc_vbat=0
+[12997.598155]c3 [ T4366] charger-manager charger-manager: Can not to get board tempperature, return init_temp=250
+[12999.883116]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[13007.883901]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[13012.015796]c1 [T12380] sipa_eth: fail to send, ret -115
+[13012.702529]c3 [ T4366] charger-manager charger-manager: Can not to get board tempperature, return init_temp=250
+[13015.883733]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[13017.983386]c3 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4317data->uusoc_vbat=0
+[13020.037831]c3 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4320000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4315data->uusoc_vbat=0
+[13022.108904]c3 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4314data->uusoc_vbat=0
+[13023.883955]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[13027.807264]c1 [T18497] charger-manager charger-manager: Can not to get board tempperature, return init_temp=250
+[13031.883852]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[13039.883216]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[13041.966602]c1 [T12380] sipa_eth: fail to send, ret -115
+[13042.909768]c3 [ T4366] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4314data->uusoc_vbat=0
+[13042.932969]c3 [ T4366] charger-manager charger-manager: Can not to get board tempperature, return init_temp=250
+[13044.559213]c3 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4317000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4315data->uusoc_vbat=0
+[13046.613575]c1 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4315data->uusoc_vbat=0
+[13047.883865]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[13048.509960]c1 [T12399] sipa_eth: fail to send, ret -115
+[13048.668148]c1 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4315data->uusoc_vbat=0
+[13050.740176]c1 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4315data->uusoc_vbat=0
+[13052.796442]c2 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4314data->uusoc_vbat=0
+[13054.865111]c2 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4317data->uusoc_vbat=0
+[13055.883843]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[13056.904940]c2 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4317data->uusoc_vbat=0
+[13058.014242]c3 [ T4366] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4315data->uusoc_vbat=0
+[13058.037823]c3 [ T4366] charger-manager charger-manager: Can not to get board tempperature, return init_temp=250
+[13058.975287]c2 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4314data->uusoc_vbat=0
+[13061.031098]c2 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4318data->uusoc_vbat=0
+[13063.883789]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[13071.883833]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[13072.366445]c2 [T12378] sipa_eth: fail to send, ret -115
+[13073.119539]c3 [ T4366] charger-manager charger-manager: Can not to get board tempperature, return init_temp=250
+[13074.687470]c7 [T16231] [ASoC: PCM ] return 0
+[13074.691674]c7 [T16231]  FE_MM_P: ASoC: no backend DAIs enabled for FE_MM_P
+[13074.702826]c7 [T16233] [ASoC: PCM ] return 0
+[13074.707287]c7 [T16233]  FE_NORMAL_AP01: ASoC: no backend DAIs enabled for FE_NORMAL_AP01
+[13079.883855]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[13083.516831]c1 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4319000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4317data->uusoc_vbat=0
+[13085.571547]c1 [T10440] sc27xx-fgu sc27xx-fgu: test..,data->ocv_uv=4318000, data->min_volt_uv=3450000, data->normal_temp_cap=933 data->alarm_cap=10,data->first_calib_volt=3650000, data->first_calib_cap=40,data->batt_mv=4318data->uusoc_vbat=0
+[13087.884043]c7 [ T1292] sprd_wdt_fiq: sprd wdt load value timeout =40, pretimeout =20
+[13088.222580]c3 [T18497] charger-manager charger-manager: Can not to get board tempperature, return init_temp=250
+[13091.026752]c7 [T16866] [ASoC: PCM ] return 0
+[13091.030973]c7 [T16866] Unable to handle kernel paging request at virtual address ffffffc013d8d000
+[13091.039754]c7 [T16866] Mem abort info:
+[13091.039758]c7 [T16866]   ESR = 0x96000047
+[13091.047449]c7 [T16866]   EC = 0x25: DABT (current EL), IL = 32 bits
+[13091.047449]c7 [T16866]   SET = 0, FnV = 0
+[13091.047450]c7 [T16866]   EA = 0, S1PTW = 0
+[13091.047450]c7 [T16866] Data abort info:
+[13091.047451]c7 [T16866]   ISV = 0, ISS = 0x00000047
+[13091.047451]c7 [T16866]   CM = 0, WnR = 1
+[13091.047453]c7 [T16866] swapper pgtable: 4k pages, 39-bit VAs, pgdp=0000000081bb9000
+[13091.047454]c7 [T16866] [ffffffc013d8d000] pgd=00000001ffffe003, pud=00000001ffffe003, pmd=00000001eca0b003, pte=0000000000000000
+[13091.053687]c4 [T16868] [Audio:MEM] audio_mem_alloc mem_type=5 addr = 0xaf724000, size=0xff0
+[13091.057662]c7 [T16866] Internal error: Oops: 96000047 [#1] PREEMPT SMP
+[13091.057665]c7 [T16866] sprd-sysdump: dump_die_cb save pregs_die_g ok .
+[13091.061728]c4 [T16868] [ASoC: PCM ] rtd->dma_cfg_virt[0] =0xffffffc01381d000, rtd->dma_cfg_phy[0] =0xaf723000,
+[13091.061728]c4 [T16868] [ASoC: PCM ] rtd->dma_cfg_virt[1]=0xffffffc01381e000,rtd->dma_cfg_phy[1]=0xaf724000,
+[13091.065535]c7 [T16866] Modules linked in: sprd_drm(OE) pwm_sprd(E) sprd_vpu_pd(OE) zte_lcdbl_vsp_vsn(E) unisoc_iommu(E) snd_soc_sprd_vbc_fe(OE) sprd_audcp_dvfs(OE) sprd_audcp_boot(OE) sprd_compr_2stage_dma(OE) audio_pipe(OE) audio_dsp_dump(OE) sprd_dmaengine_pcm(OE) snd_soc_sprd_vbc_v4(OE) snd_soc_sprd_pdm_r2p0(OE) snd_soc_sprd_dai(OE) voice_trigger_irq(OE) audio_sipc(OE) snd_soc_sprd_vaudio(OE) snd_soc_sprd_tdm(OE) snd_soc_sprd_codec_ump9620_power(OE) snd_soc_sprd_codec_ump9620(OE) voice_trigger_node(OE) sprd_platform_pcm_routing(OE) sprd_apipe(OE) snd_soc_unisoc_dp_codec(OE) snd_soc_sprd_dummy_codec(OE) snd_soc_sprd_codec_ump9620_power_dev(OE) snd_soc_sprd_card(OE) saudio(OE) mcdt_hw_r2p0(OE) agdsp_access(OE) audio_mem(OE) sprd_wlan_combo(OE) wcn_bsp(E) pcie_sprd(E) pcie_sprd_misc(E) zram(E) zsmalloc(E) sensorhub(E) ion_cma_heap(CE) ion_ipc_trusty(CE) zte_stats_info(E) smartpa_stat(E) board_state(E) zte_bootreason(E) misc_sprd_uid(E) ledtrig_pattern(E) sprd_dma(E) virt_dma(E)
+[13091.065563]c7 [T16866]  sprd_map(E)
+[13091.070299]c4 [T16868] [ASoC: PCM ] runtime->hw.periods_max*(sizeof(struct sprd_dma_cfg)=4080,
+[13091.074188]c7 [T16866]  apsys_dvfs(E) ax88179_178a(E) asix(E) twofish_generic(E) twofish_common(E) arc4(E) sha1_ce(E) ghash_ce(E) aes_ce_ccm(E) aes_neon_blk(E) mali_kbase(OE) sprd_gpu_cooling(E) sprd_ddr_dvfs(E) sprd_cp_dvfs(E) sc27xx_vibra(E) zte_card_holder_det(E) leds_sc27xx_bltc(E) sprd_cpu_cooling(E) thermal_generic_adc(E) sprd_soc_thm(E) sprd_pmic_wdt(E) sprd_wdf(E) sc27xx_poweroff(E) sprd_thermal_r5p0(E) sprd_thermal(E) sprd_ump96xx_tsensor(E) musb_sprd(E) dwc3_sprd(E) sc27xx_typec(E) sprd_pamu3(E) phy_sprd_dummy(OE) phy_sprd_usb31_qogirn6pro(E) phy_sprd_qogirn6pro(E) sprd_usbm(E) musb_hdrc(E) sprd_bc1p2(E) phy_sprd_commonphy(E) ptn38003a_i2c(E) pinctrl_sprd_qogirn6pro(E) pinctrl_sprd(E) sc27xx_fuel_gauge(E) sprd_charger_manager(E) sqc_bq2560x(E) sqc_charger(E) sqc_netlink(E) charger_policy_service(E) zte_misc(E) zte_power_supply(E) zlog_common_dlkm(E) zlog_exception_dlkm(E) sprd_tcpm(E) sprd_battery_info(E) sc27xx_adc(E) extcon_usb_gpio(E) sblock_bridge(E) sbuf_bridge(E)
+[13091.074220]c7 [T16866]  slog_bridge(E)
+[13091.081807]c4 [T16868] [ASoC: PCM ] sizeof(struct sprd_dma_cfg) = 120, size_inout=4080
+[13091.093312]c7 [T16866]  usb_f_vser(E) sfp_core(E) sipa_usb(E) sipa_eth(E) sipa_dele(OE) sipa_core(E) sipa_sys(E) sprd_modem_loader(E) seth(E) sipx(E) spool(E) spipe(E) sipc_core(E) sprd_sipc_virt_bus(E) unisoc_mailbox(E) sprd_power_manager(E) kfifo_buf(E) sprd_power_stat(E) sprd_pdbg(E) sprd_pmic_syscon(E) dwc3_sprd_core(E) sdhci_sprd(E) mmc_swcq(E) mmc_hsq(E) gpio_pmic_eic_sprd(E) gpio_sprd(E) gpio_eic_sprd(E) sprd_shm(E) trusty_virtio(E) trusty_ipc(E) trusty_irq(E) trusty_log(E) trusty_pm(E) trusty(E) sprd_manufacturer_model(E) sprd_7sreset(E) sprd_cpufreq_public(E) sprd_cpufreq_v2(E) i2c_sprd(E) nvmem_sprd_efuse(E) nvmem_sc27xx_efuse(E) sprd_hwspinlock(E) ufs_sprd_qogirn6pro(E) rpmb(E) sprd_soc_id(E) ump9621_regulator(E) ump9620_regulator(E) rtc_sc27xx(E) sprd_ump96xx_spi(E) spi_sprd_adi(E) ums9620_clk(E) clk_sprd(E) sprd_time_sync_cp(E) sprd_time_sync(E) sprd_systimer(E) sprd_sip_svc(E) sprd_wdt_fiq(E)
+[13091.101630]c4 [T16868] [ASoC: PCM ] sprd_pcm_preallocate_dma_ddr32_buffer alloc size = 0x20000 for data
+[13091.108115]c7 [T16866] CPU: 7 PID: 16866 Comm: arecord Tainted: G S  B   WC OE     5.4.254-gb50db5b6224c #3
+[13091.108116]c7 [T16866] Hardware name: Spreadtrum UMS9620 SoC (DT)
+[13091.108118]c7 [T16866] pstate: 20400005 (nzCv daif +PAN -UAO)
+[13091.108125]c7 [T16866] pc : __memset+0x16c/0x188
+[13091.114603]c4 [T16868] [Audio:MEM] audio_mem_alloc mem_type=5 addr = 0xaf725000, size=0x20000
+[13091.124557]c7 [T16866] lr : snd_pcm_hw_params+0x428/0x54c
+[13091.124559]c7 [T16866] sp : ffffffc0169ebc70
+[13091.134255]c4 [T16868] [ASoC: PCM ] sprd_pcm_preallocate_dma_ddr32_buffer, sprd_pcm_preallocate_dma_buffer buf->area(virt)=0xffffffc01381f000, buf->addr(phy)=0xaf725000, size=131072
+[13091.220526]c7 [T16866] x29: ffffffc0169ebc70 x28: ffffff816e04ac40 
+[13091.220528]c7 [T16866] x27: 0000000000000000 x26: ffffffc0119f8390 
+[13091.220529]c7 [T16866] x25: 0000000000000020 x24: ffffff8174d46800 
+[13091.220530]c7 [T16866] x23: ffffffc0112b13f8 x22: ffffff8174d40000 
+[13091.220530]c7 [T16866] x21: ffffff8172c61c00 x20: ffffff8174d46af8 
+[13091.220531]c7 [T16866] x19: ffffff8174d46b18 x18: ffffffc0147bd038 
+[13091.220532]c7 [T16866] x17: ffffffc011f15a44 x16: 00000000000000c0 
+[13091.220533]c7 [T16866] x15: ffffffc0112803e8 x14: ffffffc011a345f0 
+[13091.220534]c7 [T16866] x13: 00000000003315b4 x12: 0000000026763162 
+[13091.220535]c7 [T16866] x11: ffffff81730e0000 x10: 000000000000c000 
+[13091.224339]c4 [T16868] [ASoC: FE.VBC ] fe_hw_params fe dai: FE_DAI_ID_MM_P(25) playback
+[13091.232553]c7 [T16866] x9 : 0000000000000000 x8 : ffffffc013d8d000 
+[13091.232554]c7 [T16866] x7 : 0000000000000000 x6 : 000000000000003f 
+[13091.232555]c7 [T16866] x5 : 0000000000000040 x4 : 0000000000000000 
+[13091.232556]c7 [T16866] x3 : 0000000000000004 x2 : 0000000000009fc0 
+[13091.232557]c7 [T16866] x1 : 0000000000000000 x0 : ffffffc013d8b000 
+[13091.232560]c7 [T16866] 
+[13091.232560]c7 [T16866] PC: 0xffffffc01008d0ec:
+[13091.232561]c7 [T16866] d0ec  d65f03c0 f100fc5f 54fffb8d f102005f 54fffe2b d53b00e3 3727fde3 52800089
+[13091.318935]c4 [T16868] [MCDT] check_agcp_mcdt_clock: enabled the agcp mcdt clock (eb0=0x30c1040)
+[13091.322639]c7 [T16866] d10c  12000c65 1ac52125 720014a9 54fffd41 eb05005f 54fffd0b d10004a6 cb0803e4
+[13091.322642]c7 [T16866] d12c  ea060084 540001c0 cb040043 f101007f fa45a068 54fffc0b aa0303e2 a9001d07
+[13091.322644]c7 [T16866] d14c  a9011d07 a9021d07 f1010084 a9031d07 91010108 54ffff4a 8b040108 cb050042
+[13091.322648]c7 [T16866] d16c  d50b7428 8b050108 eb050042 54ffffaa ea060042 54fff6e1 d65f03c0 12001c21
+[13091.330519]c4 [T16868] [MCDT] check_agcp_mcdt_clock: enabled the agcp mcdt clock (eb0=0x30c1040)
+[13091.410475]c7 [T16866] d18c  38401402 6b01005f 7a5f1044 54ffffa1 d1000400 6b01005f 9a9f0000 d65f03c0
+[13091.410478]c7 [T16866] d1ac  ca010007 b200c3ea f24008ff 540002e1 f2400807 54000141 f8408402 f8408423
+[13091.419834]c4 [T16868] [MCDT] mcdt_dac_dma_enable 1020 mcdt_dma_ap_channel=2
+[13091.429513]c7 [T16866] d1cc  cb0a0047 b200d848 ca030045 8a2800e4 aa0400a6 b4ffff26 1400003e 927df000
+[13091.429516]c7 [T16866] 
+[13091.429516]c7 [T16866] LR: 0xffffffc010e72fa0:
+[13091.429516]c7 [T16866] 2fa0  54ffff81 f9403b0a f940870b 53037d29 a908a708 d2c00028 f9005b08 f900056a
+[13091.435578]c4 [T16868] [ASoC: PCM ] (pcm) sprd_pcm_hw_params, cpudai_id=25
+[13091.441285]c7 [T16866] 2fc0  f9404308 92f0000a 52800029 a90cff1f cb08014a a90ba309 aa0803e9 d37ff908
+[13091.441288]c7 [T16866] 2fe0  eb0a011f 54ffffa9 f9415f00 f9006f09 b4000180 f9409ea8 f9402908 b5000128
+[13091.445877]c4 [T16868] [ASoC: PCM ] chan=1 totsize=48000 period=12000
+[13091.454353]c7 [T16866] 3000  f9416708 b940a309 2a1f03e1 913ffd0a 9274cd4a 7200013f 9a8a0102 97c867f9
+[13091.454356]c7 [T16866] 3020  aa1503e0 94003da7 f94002a8 3962c508 34000088 910602a0 941074b2 14000003
+[13091.459727]c4 [T16868] [ASoC: PCM ] desc->src_step=4, dest_step=0
+[13091.463959]c7 [T16866] 3040  9105e2a0 941085d7 f940a2a8 f9408108 b9400109 7100213f 54000060 52800029
+[13091.463962]c7 [T16866] 3060  b9000109 f94002a8 3962c508 34000088 910602a0 941074c6 14000003 9105e2a0
+[13091.480078]c4 [T16868] [ASoC: PCM ] Chan1 DMA ID=7
+[13091.486285]c7 [T16866] 3080  94108630 b9406aa8 910102b5 34000068 aa1503e0 97d2656f b9406708 340001a8
+[13091.486289]c7 [T16866] 
+[13091.486289]c7 [T16866] SP: 0xffffffc0169ebbf0:
